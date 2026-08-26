@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T10:45:02+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66345,
+  "words": [
+    "スター旅行"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "无法唯一识别“スター旅行”所指旅行社，可能是虚构名称或不完整专名；例句含“人気があります”等未经确认的实体评价。无法可靠修正，依规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

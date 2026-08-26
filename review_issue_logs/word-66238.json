@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-24T21:32:29+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66238,
+  "words": [
+    "日中病院"
+  ],
+  "uncertain_fields": [
+    "words",
+    "detail.type",
+    "detail.meanings"
+  ],
+  "reason": "无法确认“日中病院”所指的具体机构或是否为可独立收录的通用词，现有例句均未提供可识别背景；“日中”也可能表示日中关系或白天，无法安全确定释义。",
+  "ai_source": "chatgpt-5.6"
+}

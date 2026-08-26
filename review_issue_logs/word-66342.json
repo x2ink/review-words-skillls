@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T09:09:15+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66342,
+  "words": [
+    "CS貿易"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "CS貿易是缺少全称和来源的企业专名，无法确认具体法人；原例句关于东京总部、进口电子部件等事实无法由当前数据可靠验证，故按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

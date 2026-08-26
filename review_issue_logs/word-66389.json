@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T09:48:35+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66389,
+  "words": [
+    "基準木"
+  ],
+  "uncertain_fields": [
+    "detail,description,rome"
+  ],
+  "reason": "林业专业词义无法高置信确认；现有三个例句分别涉及测高参照、生态指标和样木选择，可能混入不同概念。本地新明解 OCR 无收录。依规则七个业务字段原样提交；rome 形式也未单独修正。",
+  "ai_source": "chatgpt-5.6"
+}

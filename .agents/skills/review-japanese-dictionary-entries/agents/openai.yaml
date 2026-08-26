@@ -1,0 +1,4 @@
+interface:
+  display_name: "日语词条 AI 二次复审"
+  short_description: "循环复审词条并记录错误与不确定事件"
+  default_prompt: "Use $review-japanese-dictionary-entries to complete the pending Japanese dictionary AI review queue."

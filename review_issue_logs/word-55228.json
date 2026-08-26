@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T02:24:13+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 55228,
+  "words": [
+    "水源"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原声调字段为未分隔的⓪③，本地OCR词典同词头标为①，证据冲突且无法可靠确定正确声调；已原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

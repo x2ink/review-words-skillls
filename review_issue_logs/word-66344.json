@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T10:44:26+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66344,
+  "words": [
+    "ヒマワリ保険"
+  ],
+  "uncertain_fields": [
+    "words,detail,description,rome"
+  ],
+  "reason": "无法唯一识别“ヒマワリ保険”所指企业，可能是虚构名称或不完整专名；例句包含客户信赖和投保后安心等未经确认的实体评价。无法可靠修正，依规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

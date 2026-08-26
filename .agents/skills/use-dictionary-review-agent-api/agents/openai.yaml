@@ -1,0 +1,4 @@
+interface:
+  display_name: "词条复审 Agent 接口"
+  short_description: "调用词条审核接口并记录本地异常日志"
+  default_prompt: "Use $use-dictionary-review-agent-api to fetch and submit Japanese dictionary review entries."

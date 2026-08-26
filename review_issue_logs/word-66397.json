@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T09:53:03+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66397,
+  "words": [
+    "日中大学"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "未找到名为“日中大学”的明确院校；检索结果主要是日中两国大学或日中大学交流等组合用法，现有例句却将其作为具体学校专名。无法可靠判定应删除、改词形还是补充实体信息，依规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

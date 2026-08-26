@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-24T20:25:26+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65028,
+  "words": [
+    "建"
+  ],
+  "uncertain_fields": [
+    "words",
+    "kana",
+    "rome",
+    "detail"
+  ],
+  "reason": "words=建、kana=けん、rome=tate与全部建てる动词例句互相冲突，无法判定目标词条应为建て还是建てる；已按原始字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

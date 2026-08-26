@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-24T21:28:15+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66229,
+  "words": [
+    "上海保険"
+  ],
+  "uncertain_fields": [
+    "words",
+    "kana",
+    "rome",
+    "detail.meanings"
+  ],
+  "reason": "词条被解释为具体保险公司，但无法确认“上海保険”是正式企业名还是临时组合；混合读音和罗马字也缺少可靠依据，无法安全改写。",
+  "ai_source": "chatgpt-5.6"
+}

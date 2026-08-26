@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T04:39:49+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 63074,
+  "words": [
+    "徐々に"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原声调字段为◎，疑似平板型⓪的同形误识；本地OCR词典同词头标为①，关键字段存在互斥结论，已原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

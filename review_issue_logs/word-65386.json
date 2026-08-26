@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-24T20:54:49+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65386,
+  "words": [
+    "金沢"
+  ],
+  "uncertain_fields": [
+    "kana",
+    "rome",
+    "detail"
+  ],
+  "reason": "kana=かなざわ对应金泽地名，rome=kanezawa可能对应姓氏读音かねざわ；词条同时混合地名和姓氏义项，无法统一读音，已按原始字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

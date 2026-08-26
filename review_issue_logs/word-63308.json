@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T04:46:52+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 63308,
+  "words": [
+    "驚き"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原声调字段为◎④，疑似⓪・④；本地OCR词典词头显示疑似①・④，第一声调型存在互斥结论且OCR含排版符号，无法可靠消歧，已原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

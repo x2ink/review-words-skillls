@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T04:21:04+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 61029,
+  "words": [
+    "続々"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原声调字段为◎①，疑似包含圈零误识且未分隔；本地OCR词典同词头仅标①，无法确认⓪是否为可靠变体，已原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

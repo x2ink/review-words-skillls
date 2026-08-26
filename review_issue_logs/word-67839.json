@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T19:49:28+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 67839,
+  "words": [
+    "時は金なり"
+  ],
+  "uncertain_fields": [
+    "detail.type"
+  ],
+  "reason": "完整谚语句无法可靠映射为项目允许的单一词性；原类型“惯用表达”又属于用法类别，需人工决定谚语类词条的类型规范。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T07:22:06+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65379,
+  "words": [
+    "辛み"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原声调为③◎，本地词典清晰词头标为③①，现有证据不足以确认第二声调型。",
+  "ai_source": "chatgpt-5.6"
+}

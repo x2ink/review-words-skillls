@@ -1,0 +1,4 @@
+interface:
+  display_name: "日语词条清洗"
+  short_description: "按修订规则清洗词条并识别重大不确定性"
+  default_prompt: "Use $clean-japanese-dictionary-entry to clean and validate one Japanese dictionary entry."

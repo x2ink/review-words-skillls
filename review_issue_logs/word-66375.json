@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T11:06:57+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66375,
+  "words": [
+    "富士カメラ"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "无法唯一确认“富士カメラ”是虚构公司、具体店名，还是对其他企业名的误写；例句含产品质量、任职和新品发布等实体断言。无法可靠修正，依规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

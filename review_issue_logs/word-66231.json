@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-24T21:29:00+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66231,
+  "words": [
+    "上海公司"
+  ],
+  "uncertain_fields": [
+    "words",
+    "kana",
+    "rome",
+    "detail.meanings"
+  ],
+  "reason": "词形可能是中文临时组合或未指明的机构名；“コンス”读音与日语“公司”的通常读法不符，现有例句又未提供可识别实体，无法安全确定目标词条。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T09:55:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66402,
+  "words": [
+    "ＳＣ商事"
+  ],
+  "uncertain_fields": [
+    "words,detail,description,rome"
+  ],
+  "reason": "字母公司名无法唯一识别具体企业，现有例句含“大手総合商社”“株価”等实体事实但无可靠指向；也无法确认全角词形及罗马字是否应按专名处理。依规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

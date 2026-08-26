@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T09:10:31+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66343,
+  "words": [
+    "東京印刷"
+  ],
+  "uncertain_fields": [
+    "words,detail,rome,description"
+  ],
+  "reason": "東京印刷可能是多家企业使用的名称，也可能只是“在东京印刷”的组合短语；缺少法人全称和来源，无法确认“承印书籍、技术获高度评价”等事实，也无法在不确定专名身份时可靠修正罗马字，故按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

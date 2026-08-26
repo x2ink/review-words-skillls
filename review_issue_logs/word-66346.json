@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T09:11:43+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66346,
+  "words": [
+    "広州食品"
+  ],
+  "uncertain_fields": [
+    "words,detail,rome,description"
+  ],
+  "reason": "広州食品无法唯一对应具体法人，也可能是泛指广州食品；缺少公司全称、来源和上下文，原例句关于制造商身份、日本市场人气及新品发布均无法可靠确认，故按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

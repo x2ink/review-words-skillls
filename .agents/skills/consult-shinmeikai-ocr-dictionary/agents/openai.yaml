@@ -1,0 +1,4 @@
+interface:
+  display_name: "新明解 OCR 词典参考"
+  short_description: "检索未清洗的新明解 OCR 文本并谨慎引用"
+  default_prompt: "Use $consult-shinmeikai-ocr-dictionary to find supporting evidence for a Japanese dictionary entry."

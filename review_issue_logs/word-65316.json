@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-08-24T20:50:05+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65316,
+  "words": [
+    "高橋"
+  ],
+  "uncertain_fields": [
+    "words",
+    "detail"
+  ],
+  "reason": "词头高橋通常可作姓氏，但例句指向石川县野野市地名；当地官方名称为高橋町，无法确定目标词条应为姓氏高橋还是地名高橋町，已按原始字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

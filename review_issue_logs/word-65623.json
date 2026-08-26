@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-24T21:15:51+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65623,
+  "words": [
+    "中谷"
+  ],
+  "uncertain_fields": [
+    "detail.type",
+    "detail.meanings",
+    "examples"
+  ],
+  "reason": "现有释义和例句将“中谷”作为地名使用，但该词形也常见作姓氏；缺少上下文与可靠证据确认本条目标含义，无法安全改写。",
+  "ai_source": "chatgpt-5.6"
+}

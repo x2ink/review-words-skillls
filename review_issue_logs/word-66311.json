@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T08:46:35+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66311,
+  "words": [
+    "ＭＴＳ社"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "MTS 是多个企业或机构可能使用的简称，当前词条没有国家、行业或全称信息；原例句关于“科技企业”和“产品高品质”的断言无法确认，无法可靠确定具体专名指代，故按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

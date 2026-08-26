@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T05:05:00+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 64099,
+  "words": [
+    "持ち込む"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原声调字段为◎③，疑似⓪・③；本地OCR词典同词头的首个声调型出现④或①的噪声，仅③一致，无法可靠确定另一声调型，已原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

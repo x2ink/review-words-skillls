@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-08-25T02:37:49+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 67795,
+  "words": [
+    "華晶酒店"
+  ],
+  "uncertain_fields": [
+    "kana",
+    "detail"
+  ],
+  "reason": "该词形疑似中文酒店专名，但当前假名读法及“酒店”释义无法从现有证据可靠确认。",
+  "ai_source": "chatgpt-5.6"
+}

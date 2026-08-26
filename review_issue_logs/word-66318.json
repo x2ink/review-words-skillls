@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T08:52:39+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66318,
+  "words": [
+    "東京水"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "東京水更像特定供水宣传名或商品名，并非语义明确的普通名词；当前缺少品牌主体、来源和上下文，无法确认应释为东京自来水、瓶装宣传水或其他专名，且“当地特产”等原例句无法验证，故按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

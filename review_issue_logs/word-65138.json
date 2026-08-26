@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-08-24T20:33:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65138,
+  "words": [
+    "川田"
+  ],
+  "uncertain_fields": [
+    "kana",
+    "rome"
+  ],
+  "reason": "姓氏川田可读かわだ或かわた；当前kana=かわだ与rome=kawata冲突，例句无法消歧，已按原始字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-26T08:45:37+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66310,
+  "words": [
+    "徳栄"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "徳栄（とくえい）更像人名、校名等专名用字，原数据却作为抽象普通名词“德荣”解释，三条例句均不自然；缺少专名上下文，无法可靠确定词条应指人名、机构名还是其他专名，故按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}
