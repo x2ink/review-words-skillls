@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:17:17+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69450,
+  "words": [
+    "主要科目"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“shuyou kamoku”，含不符合连续书写规则的空格。例句“日本語はこのコースの主要科目です”中的“このコース”译为“这门课程”略显偏差，视语境可能应为“这个专业/项目”。因声调缺乏可靠依据，已按约定保持全部七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

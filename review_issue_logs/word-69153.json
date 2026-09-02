@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:35:56+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69153,
+  "words": [
+    "縮約"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,detail.examples"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录“縮約”，无法可靠补全声调；名词与他动词·サ变两组释义完全重复，宜合并。“契約内容の縮約版”“発表内容を五分に縮約”“複雑な規則を分かりやすく縮約”等表达可能把专业词“縮約”与“要約／短縮／簡略化”混用，需根据目标义项重新核对。已将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

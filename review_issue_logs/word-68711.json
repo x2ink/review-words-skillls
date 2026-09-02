@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:32:17+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68711,
+  "words": [
+    "河出書房新社"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "该机构专名通常由多个韵律单位组成，无法可靠用单一数字声调表示；rome 含空格，不符合连续书写规则；「专有名词」不在项目规范词性集合内。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

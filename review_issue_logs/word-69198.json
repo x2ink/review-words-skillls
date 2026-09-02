@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:11:04+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69198,
+  "words": [
+    "主夫"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 只收录同音词「主婦①」，未收录仿造词「主夫」的独立声调；不能仅因同音或构词关系直接借用。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

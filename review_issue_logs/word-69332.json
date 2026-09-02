@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:08:01+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69332,
+  "words": [
+    "集合体"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地词典仅将“集合体”列作接尾构词成分“体”的示例，未提供可可靠辨认的独立词条声调；邻近其他复合词的声调标记不能套用。无法在不猜测的情况下补全 tone，故按原字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

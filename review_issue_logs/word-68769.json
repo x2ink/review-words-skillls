@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T09:08:29+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68769,
+  "words": [
+    "等生化"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书未收录该词；公开资料可确认「等生化」是国立国语研究所为 normalization 提出的译语，但未提供可靠重音标注，无法补全。词形及核心释义可成立，已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

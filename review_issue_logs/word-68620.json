@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:44:48+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68620,
+  "words": [
+    "〜込む"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典中独立动词“込む”为①，但接尾用法形成的复合动词声调会随前项变化，无法可靠给出统一声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T09:48:38+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 44781,
+  "words": [
+    "等"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "接尾词「ら」的声调为空；本地参考仅确认其接尾用法，未给出可可靠采用的独立声调，不能凭语感推定。detail.type 当前为项目无效标签「接尾」，待人工确认声调后应规范为「接尾词」。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

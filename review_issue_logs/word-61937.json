@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-28T10:22:53+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 61937,
+  "words": [
+    "美和"
+  ],
+  "uncertain_fields": [
+    "detail.meanings,description"
+  ],
+  "reason": "美和可作日本女性名、姓氏或多个地名，当前数据未提供可确定具体指称的上下文；原例句将其断定为古代地名、美和地区，并声称名字意为美丽的和平，均无法从本地词典可靠核实。为避免误改，七个业务字段已原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

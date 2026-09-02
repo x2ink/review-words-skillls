@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:09:35+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68646,
+  "words": [
+    "一木一草"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.meanings"
+  ],
+  "reason": "该四字固定语通常按「一木・一草」组织韵律，无法可靠用单一数字表示整体声调；rome 含空格。释义中的「极小的自然事物」略窄，核心更接近「每一棵树、每一株草」。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

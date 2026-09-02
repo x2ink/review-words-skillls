@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:26:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69349,
+  "words": [
+    "新報"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,detail.examples,description"
+  ],
+  "reason": "权威辞典将“新報”解释为“新消息”，也可指报道新事物的报刊，并说明常用于报刊/杂志名称。当前仅释为普通“报纸；新闻报”，且“地元の新報”“新報の記者”等例句在没有具体报刊名称时不够自然，遗漏核心“新消息”义。本地词典未收录，声调亦无可靠依据。无法安全重构全部字段，故按约定原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

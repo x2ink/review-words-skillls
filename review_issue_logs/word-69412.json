@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:28:24+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69412,
+  "words": [
+    "高性能"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.meanings,detail.examples,rome"
+  ],
+  "reason": "整体词条声调为空；虽能确认读音「こうせいのう」以及名词、形容动词两种用法，但未找到可可靠确认整词东京式数字声调的证据。detail 中「な形容词」不是项目允许标签，且两个块语义和例句高度重复，宜合并为单一 type「名词·形容动词」并保留不超过三条代表例句。罗马字含空格，按项目规则应为 kouseinou。因声调仍不确定且涉及整块结构调整，七个业务字段原样提交并记录待人工处理。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:05:30+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68689,
+  "words": [
+    "気がある"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type,detail.examples"
+  ],
+  "reason": "该固定搭配无法可靠用单一数字表示整体声调；rome 含空格；「惯用表达」不在规范词性集合。第二例「その仕事に気がある」也不自然，通常应说「その仕事をする気がある」或改用表示感兴趣的表达。因多处需重构，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

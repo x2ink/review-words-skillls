@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:49:06+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69373,
+  "words": [
+    "ブックス"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.meanings,detail.examples,description"
+  ],
+  "reason": "本地词典未收录「ブックス」，外部资料也未提供其作为普通独立日语词条的可靠数字声调。该形式通常见于书店名、出版品牌、系列名或复合语，并不自然地单独表示“书店”；例句「駅前に新しいブックスができました」「オンラインブックスで本を注文しました」均不自然，释义和description把英语复数/名称构词泛化为普通“书籍”也缺乏充分依据。无法在不重构词条的情况下可靠修正，故七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

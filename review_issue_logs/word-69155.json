@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:38:23+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69155,
+  "words": [
+    "取り残す"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples"
+  ],
+  "reason": "原词条 tone 为空。本地新明解 OCR 找到“とりのこす”，但声调串显示为“④⑤⑥:④⑥”，其中⑥超过该五拍词可用位置，明显含 OCR 噪声，无法可靠还原；detail.type 含项目禁止的“五段”，应规范为“他动词”；“荷物を部屋に取り残す”不自然，表达把行李忘在房间通常应使用“置き忘れる”。已将七个业务字段原样提交，待人工核对。",
+  "ai_source": "chatgpt-5.6"
+}

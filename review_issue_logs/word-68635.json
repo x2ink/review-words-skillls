@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:29:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68635,
+  "words": [
+    "鑑真和尚"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type,rome"
+  ],
+  "reason": "日本语中的该专名通常写作“鑑真和上（がんじんわじょう）”，当前“鑑真和尚”是否作为可接受异体需进一步权威核验；本地参考仅能确认 わじょう 是宗派称呼，未收录该专名及声调。词性“专有名词”不在项目允许标签中，罗马字也含空格（规范形式应连续）。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

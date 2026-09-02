@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:46:46+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68699,
+  "words": [
+    "きりがない"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "该固定短语无法可靠用单一数字表示整句声调；rome 含空格，不符合连续书写规则；「惯用表达」不在项目规范词性集合内，且缺少可确定的唯一替代标签。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

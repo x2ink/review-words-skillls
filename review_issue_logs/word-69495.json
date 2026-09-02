@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:25:57+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69495,
+  "words": [
+    "相互学習"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome"
+  ],
+  "reason": "该项更像教育场景中的组合术语，本地新明解 OCR 未检索到完整独立词条，无法可靠确认固定词条身份或声调；tone 为空。罗马字「sougo gakushuu」含不合规则的空格，若保留该词形，预期连续书写为「sougogakushuu」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

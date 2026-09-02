@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:05:13+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69388,
+  "words": [
+    "漢文調"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "整体词条声调为空，未找到可可靠确认「漢文調」整体声调的词典证据，不能根据构词成分机械推导。罗马字含空格，按项目规则应为 kanbunchou。依据问题词条处理规则，七个业务字段原样提交并记录待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

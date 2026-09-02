@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:33:00+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69290,
+  "words": [
+    "ウェア"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地词典确认词义为服装/运动服，但词头未提供可可靠辨认的基本声调；无法在不猜测的情况下补全 tone，故按原字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

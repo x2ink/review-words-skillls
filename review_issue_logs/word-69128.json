@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:14:45+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69128,
+  "words": [
+    "猛練習"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type,detail.meanings,detail.examples"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 只有“猛練習”的用例而无独立声调，无法可靠补全；rome 为含空格的“mou renshuu”；名词与サ变两组释义重复，宜合并；“自动词·サ变”的分类可疑，练习某项内容通常表现为他动用法；“スピーチを猛練習しました”搭配生硬，宜改为“スピーチの猛練習をしました”等。已将七个业务字段原样提交，待人工核对。",
+  "ai_source": "chatgpt-5.6"
+}

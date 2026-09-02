@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:12:51+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69126,
+  "words": [
+    "すっごい"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录“すっごい”这一口语强调形式，不能从“すごい”推断声调；detail.type 使用项目不接受的“い形容词”，应统一为“形容词”；例句“すっごい人が並んでいます”可被理解为“厉害的人在排队”，不能稳定对应“排队的人特别多”。已将七个业务字段原样提交，待人工核对。",
+  "ai_source": "chatgpt-5.6"
+}

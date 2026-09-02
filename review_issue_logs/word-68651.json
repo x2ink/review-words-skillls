@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:59:03+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68651,
+  "words": [
+    "たる"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "该文语断定助动词的连体形作为语法成分使用，没有可脱离前项统一套用的独立声调，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

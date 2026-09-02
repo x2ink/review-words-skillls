@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:08:06+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68594,
+  "words": [
+    "高見山"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.meanings"
+  ],
+  "reason": "本地参考词典未检出该专名，无法可靠确认声调；“高見山”可能指相扑力士四股名、山名或其他同名对象，当前仅释为“人名”且例句暗示相扑，具体指称不足；原词性“专有名词”也不在项目允许标签中。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

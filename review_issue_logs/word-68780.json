@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T08:55:30+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68780,
+  "words": [
+    "〜系"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书收录独立名词「系①」及多个复合词，但未给接尾成分「〜系」可通用于不同前项的固定重音，且复合词重音会随前项变化；已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

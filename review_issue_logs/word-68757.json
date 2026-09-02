@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-01T09:24:18+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68757,
+  "words": [
+    "ケアマネージャー"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "rome",
+    "words"
+  ],
+  "reason": "原始 tone 为空，rome 含不符合项目格式的空格。本地 OCR 辞书未收录该词，无法可靠确定长复合外来语重音；正式制度名称中常见表记「ケアマネジャー」，原「ケアマネージャー」也通行，表记优先级需进一步核定。按重大不确定规则，七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

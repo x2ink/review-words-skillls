@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:52:52+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69316,
+  "words": [
+    "外部化"
+  ],
+  "uncertain_fields": [
+    "tone,detail,description"
+  ],
+  "reason": "本地词典未收录该词，无法可靠补全基本声调。名词、自动词·サ变、他动词·サ变三个 detail 块语义高度重叠，按项目规则宜合并为“名词·自他动词·サ变”并精简例句；description 中“社会化”并非“外部化”的普遍同义词，容易造成概念偏差。因声调问题仍无法解决，按约定七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

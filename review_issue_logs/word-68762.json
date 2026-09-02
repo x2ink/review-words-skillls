@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-01T09:17:09+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68762,
+  "words": [
+    "国立国語研究所"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "rome",
+    "detail.type"
+  ],
+  "reason": "原始 tone 为空，rome 含不符合项目格式的空格，detail.type 使用类型表之外的「专有名词」。本地 OCR 辞书未收录该机构全称，无法可靠确定专名整体重音；按重大不确定规则，七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

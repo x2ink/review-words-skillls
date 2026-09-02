@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T09:02:11+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 36623,
+  "words": [
+    "レター"
+  ],
+  "uncertain_fields": [
+    "detail.meanings,detail.examples,description"
+  ],
+  "reason": "第二义将英语 letter 的“字母”义直接套入日语「レター」。普通日语中「レター」主要表示书信；「レターをタイプする」「小さいレター」不自然，疑似义项及例句串入。按规则七个业务字段原样提交，待人工复核并考虑删除第二义。",
+  "ai_source": "chatgpt-5.6"
+}

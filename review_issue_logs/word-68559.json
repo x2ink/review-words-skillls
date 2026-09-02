@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:56:10+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68559,
+  "words": [
+    "〜先"
+  ],
+  "uncertain_fields": [
+    "kana,tone"
+  ],
+  "reason": "kana 字段不应包含接尾标记“〜”，规范读音应为“さき”；本地参考只确认去处、目的地义，未给统一接尾声调，旅行先、出張先、勤務先等需分别核验整体重音。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:31:52+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69462,
+  "words": [
+    "水産学部"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "词条声调为空，本地新明解 OCR 未检索到「水産学部」独立词条，无法可靠补全。罗马字「suisan gakubu」含不合规则的空格，预期连续书写为「suisangakubu」。因存在无法可靠修正的声调问题，按规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

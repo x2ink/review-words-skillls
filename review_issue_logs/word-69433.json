@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:57:26+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69433,
+  "words": [
+    "新〜"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 字段为空；该条为接头词“しん”，声调可能受后接词影响，无法从“新入生、新学期、新製品”等复合词可靠推定一个固定基本声调。已按约定保持七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

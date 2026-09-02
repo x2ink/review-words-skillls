@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:54:55+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68653,
+  "words": [
+    "〜造り"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.examples"
+  ],
+  "reason": "该接尾成分与不同前项结合后整体声调会变化，无法可靠确定统一独立声调。例句中的「木造り」「手造り」还涉及是否应按具体语境改用更常见的「木造」「手作り」，不能一概替换。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

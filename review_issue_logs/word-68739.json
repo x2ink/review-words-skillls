@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T09:51:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68739,
+  "words": [
+    "〜つつ"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "detail.type"
+  ],
+  "reason": "原始 tone 为空，且 detail.type 使用项目类型表之外的「接续助词」（应归入「助词」）。本地 OCR 辞书收录该接续助词用法但未给独立重音；其附在动词连用形后，整体高低受前项影响，无法填写通用固定值。七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

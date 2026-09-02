@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:22:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69453,
+  "words": [
+    "文学部"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 仅在例文和「文科」释义中提及「文学部」，未找到可独立核实的词条声调。按规则无法可靠补全，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

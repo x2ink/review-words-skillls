@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:32:49+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69463,
+  "words": [
+    "大学内機関"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome"
+  ],
+  "reason": "「大学内機関」更像临时组合表达，未能在本地新明解 OCR 中找到独立词条，无法可靠核实其词条身份与声调；tone 为空。罗马字「daigaku nai kikan」含不合规则的空格，若保留该词形，预期连续书写为「daigakunaikikan」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

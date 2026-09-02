@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-29T04:59:46+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68133,
+  "words": [
+    "りんごちゃん"
+  ],
+  "uncertain_fields": [
+    "type,detail,description,rome"
+  ],
+  "reason": "无法判断本条目标是普通昵称“りんごちゃん”，还是特指以“りんごちゃん”为艺名的日本艺人。原释义和例句均为泛指，未提供可识别身份；两种解释会导致词性、释义、例句和罗马字处理不同，故七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

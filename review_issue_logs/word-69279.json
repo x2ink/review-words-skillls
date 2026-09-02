@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:18:46+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69279,
+  "words": [
+    "国威発揚"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.meanings,detail.examples,rome"
+  ],
+  "reason": "本地参考仅分别收录「国威①」与「発揚⓪」，未给「国威発揚」整体声调，不能机械拼接。第二个「他动词·サ变」词性块与名词块释义重复，且所列例句均使用「国威発揚を図る／重視する／目指す」，不能证明「国威発揚する」用法，原则上更像名词短语。rome「kokui hatsuyou」含空格。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

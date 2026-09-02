@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:29:12+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69351,
+  "words": [
+    "婚約解消"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples,rome"
+  ],
+  "reason": "“婚約解消”作为名词搭配成立，但当前另设“他动词·サ变”并使用“婚約解消する”，标准表达通常是“婚約を解消する”，因此该词性块和三条例句需复核，宜仅保留名词用法。本地词典未收录整个搭配，声调无可靠依据；rome 含空格，应为“konyakukaishou”。无法可靠完成全部修正，故按约定原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

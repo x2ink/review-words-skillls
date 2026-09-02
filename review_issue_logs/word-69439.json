@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:03:52+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69439,
+  "words": [
+    "〜歳"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 字段为空；该条为年龄接尾词“さい”，实际声调受前接数字及整个数量表达影响，不能从“二十三歳、五歳、何歳”等例词推定一个固定基本声调。已按约定保持七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

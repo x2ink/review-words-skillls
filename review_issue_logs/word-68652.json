@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:56:07+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68652,
+  "words": [
+    "コンクリート造り"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "该长复合表达通常按多个韵律单位读，无法可靠用单一数字表示整体固定声调；rome 含空格，不符合项目连续书写规则。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:10:20+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69444,
+  "words": [
+    "学生数"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“gakusei suu”，包含不符合项目连续书写规则的空格。因缺乏可靠声调依据，已按约定保持全部七个业务字段原样提交；建议后续确认声调后规范罗马字。",
+  "ai_source": "chatgpt-5.6"
+}

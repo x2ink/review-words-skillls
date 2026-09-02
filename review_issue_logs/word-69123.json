@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:10:31+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69123,
+  "words": [
+    "雪まみれ"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type,detail.examples"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录“雪まみれ”本身，不能从其他“〜まみれ”复合词类推整体声调；rome 为含空格的“yuki mamire”；第二个 detail 使用项目不接受且语法错误的“な形容词”，まみれ修饰名词通常接“の”，三条“雪まみれな…”例句均应改为“雪まみれの…”。已按规则将七个业务字段原样提交，待人工修正。",
+  "ai_source": "chatgpt-5.6"
+}

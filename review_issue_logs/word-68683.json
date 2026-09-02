@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:13:42+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68683,
+  "words": [
+    "もらいっぱなし"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "该词由动词连用形加接尾构式「っぱなし」形成，本地资料未提供可可靠确认的完整词固定声调，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

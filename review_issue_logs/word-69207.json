@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:18:00+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69207,
+  "words": [
+    "しらすおろし"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.meanings"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 收录「しらす⓪」（沙丁鱼、鲱鱼等幼鱼）和「しらす干し」，但未收录完整料理名「しらすおろし」，不能机械拼接声调；罗马字“shirasu oroshi”含项目不允许的空格。原释义“由小沙丁鱼干或小白鱼”混合了食材状态与鱼类范围，通常应明确为“しらす（常为釜扬或干制品）配萝卜泥的小菜”。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

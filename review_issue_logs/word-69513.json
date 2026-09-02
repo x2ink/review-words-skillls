@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T15:03:18+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69513,
+  "words": [
+    "博士課程"
+  ],
+  "uncertain_fields": [
+    "kana,tone,rome"
+  ],
+  "reason": "大学院制度中的「博士課程」通常读作「はくしかてい」，当前 kana「はかせかてい」把「博士」误读为称呼／人物义的「はかせ」，属于高置信读音错误；对应罗马字应为连续的「hakushikatei」，当前「hakase katei」同时有读音错误和空格。tone 为空，本地新明解 OCR 未检索到完整「博士課程」词条，无法可靠补全复合词声调。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

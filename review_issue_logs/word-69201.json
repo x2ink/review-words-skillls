@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:13:17+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69201,
+  "words": [
+    "片付け物"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,detail.examples,description"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 未收录该词，无法可靠补全。权威日语词典显示「片付け物」既可指“收拾、整理这件事”，也可指“必须收拾的东西”；原数据只列后者，但「食事の後で片付け物をしました」「片付け物が終わったら」实际使用的是前者，存在缺义和例释不一致。因声调问题仍未解决，依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

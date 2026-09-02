@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-29T02:40:51+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 64227,
+  "words": [
+    "分別"
+  ],
+  "uncertain_fields": [
+    "kana",
+    "rome",
+    "tone",
+    "detail"
+  ],
+  "reason": "kana=ぶんべつ对应分类、分拣义，rome=funbetsu与全部例句对应ふんべつ的判断力、懂事义；声调格式也无法在目标读音未确定时可靠修正，关键字段发生互斥串读。",
+  "ai_source": "chatgpt-5.6"
+}

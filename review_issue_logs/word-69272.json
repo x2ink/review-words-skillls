@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:12:09+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69272,
+  "words": [
+    "ウォーキング"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples"
+  ],
+  "reason": "本地参考未收录「ウォーキング」完整词条，无法可靠确定基本声调。当前名词与自动词·サ变用法原则上应合并为「名词·自动词·サ变」；例句「駅までウォーキングして行きました」不够自然，通常会说「歩いて行きました」或改成明确的健步走场景。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

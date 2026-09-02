@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:15:03+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68721,
+  "words": [
+    "否定形"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "该语法术语可成立，但本地参考资料未提供可可靠确认的固定声调，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,13 +1,13 @@
 ---
 name: review-japanese-dictionary-entries
-description: 对 easyjapanese 中已完成人工审核但 ai_reviewed_at 仍为空的日语词条执行端到端 AI 二次复审。用于持续循环获取词条直至队列完成、按修订规则清洗、谨慎参考 xmj.txt、提交结果，并把无法可靠修正的问题词条原样提交后逐条记录到项目根目录的问题日志中。
+description: 对 easyjapanese 中已完成人工审核但 ai_reviewed_at 仍为空的日语词条执行端到端 AI 二次复审。用于持续循环获取词条直至队列完成、逐字段清洗并提交结果；只有关键内容存在无法消除的互斥冲突且不能形成安全一致结果时，才原样提交并记录问题。
 ---
 
 # 日语词条 AI 二次复审
 
 ## 任务目标
 
-持续处理 japanese_dict_review 中存在有效人工审核记录且 ai_reviewed_at 为空的词条。默认在一次任务中持续循环，直到 GET 明确返回 null；不得因已处理数量达到某个默认值而提前停止。每条数据都必须经过检查。可靠词条使用 `submit_changed` 或 `submit_unchanged`；存在无法可靠消除的内容问题时使用 `submit_original_with_issue`，原样提交并单独记录问题，随后继续循环。
+持续处理 japanese_dict_review 中存在有效人工审核记录且 ai_reviewed_at 为空的词条。默认在一次任务中持续循环，直到 GET 明确返回 null；不得因已处理数量达到某个默认值而提前停止。每条数据都必须经过检查。只要存在至少一个高置信、可安全落地的字段修正，就使用 `submit_changed`；完整复核后没有修正点时使用 `submit_unchanged`。只有关键内容存在无法消除的互斥冲突，并且保留不确定字段也无法形成安全一致结果时，才使用 `submit_original_with_issue`，原样提交并单独记录问题，随后继续循环。
 
 内容问题不得中断整体循环。这里的“原样提交”是指保持 GET 返回的 `id、words、kana、tone、detail、rome、description` 七个业务字段不变，只增加接口要求的 `ai_source`。不得把猜测性修复混入原样提交。
 
@@ -22,6 +22,27 @@ description: 对 easyjapanese 中已完成人工审核但 ai_reviewed_at 仍为�
 - $consult-shinmeikai-ocr-dictionary：可选的新明解 OCR 文本证据。
 
 xmj.txt 只提供辅助证据，不具有最终裁决权。未命中或出现普通 OCR 噪声时继续复审；关键字段发生无法消除的重大冲突时交由清洗 skill 判定 `submit_original_with_issue`。
+
+## 决策护栏
+
+每个字段独立审核，不确定性不得从一个字段扩散到整条词条：
+
+1. 先修正所有高置信错误，再对缺少可靠证据的字段保留原值。
+2. 只要最终对象中任一业务字段发生高置信修改，决策就是 `submit_changed`，即使 `tone` 仍为空或其他非关键字段保持原值。
+3. 没有可靠修改点且原内容可安全提交时，决策是 `submit_unchanged`。
+4. `submit_original_with_issue` 是最后手段。只有关键字段存在两个或更多合理但互斥的结论，且既不能可靠选择，也不能通过保留该字段、删除坏义项或坏例句形成一致结果时才可使用。
+
+下列情况不得单独触发 `submit_original_with_issue`：
+
+- `tone` 为空且没有可靠声调证据；保持空字符串即可。
+- `xmj.txt` 未命中、命中乱码、缺少完整复合词或只给出弱证据。
+- 词条是复合词、短语、机构名、专名，或仅因其“不像普通单词”而产生疑问。
+- `rome` 含空格、大小写或与已确认 `kana` 存在可直接修正的不一致。
+- `type` 标签不规范但能明确映射到项目已有类型。
+- 个别义项或例句错误、重复、串入无关内容，但可以安全修正或删除。
+- 无法确认是否应新增冷僻义项；不新增即可。
+
+例如，确认 `博士課程` 的读音应为 `はくしかてい` 时，应修正 `kana` 和 `rome`，未知声调继续保留空字符串，并使用 `submit_changed`。不得因为声调为空或 OCR 没有完整命中而整条原样提交。
 
 ## 运行配置
 
@@ -39,7 +60,7 @@ xmj.txt 只提供辅助证据，不具有最终裁决权。未命中或出现普
 2. 返回 null 时立即停止，不调用提交接口，并把队列标记为 COMPLETE。
 3. 返回对象时记录原始 id，随后只处理这一条。不得在成功提交前预取下一条。
 4. 使用 OCR skill 查找同词形、同读音的证据。未找到或未安装词典时记录 unavailable 或 not_found，继续下一步。
-5. 使用清洗 skill 检查 words、kana、tone、detail、rome、description，并先得到 `submit_changed`、`submit_unchanged` 或 `submit_original_with_issue` 决策。
+5. 使用清洗 skill 逐字段检查 words、kana、tone、detail、rome、description，先应用所有高置信修正，再按“有修改即 changed、无修改且安全即 unchanged、仅无法形成安全一致结果才 original_with_issue”的顺序得到决策。
 6. 如果决策为 `submit_original_with_issue`，使用本轮 GET 对象构造原样提交对象：七个业务字段保持不变，只增加 `ai_source`。同时保留 `word_id`、`words`、`uncertain_fields` 和简短 `reason`，供提交成功后写问题文件。
 7. 对提交对象做提交前校验：id 必须等于本轮 GET 的 id；words 和 detail 非空；detail 不含 meanings.jp、examples.read、examples.voice；ai_source 已设置。
 8. 调用 POST /api/v2/agent/dictionary/reviews/submit。只有 2xx 响应才计为已完成。
@@ -53,14 +74,14 @@ xmj.txt 只提供辅助证据，不具有最终裁决权。未命中或出现普
 
 - COMPLETE：GET 明确返回 null。这是唯一的全量任务完成条件。
 - BATCH_LIMIT：仅在显式配置 EASYJAPANESE_REVIEW_BATCH_SIZE 且本轮达到该正整数上限时使用，队列可能仍有数据。不得使用隐含或默认的条数上限生成此状态。
-- 内容疑点、字段串条、读音冲突和无法可靠消歧均不再是停止条件；必须原样提交、单独记录并继续。
+- 内容疑点、字段串条、读音冲突和无法可靠消歧均不再是停止条件。普通疑点按字段保留原值并正常提交；只有满足“关键结论互斥且无法形成安全一致结果”双重门槛时，才原样提交、单独记录并继续。
 - BLOCKED_ENTRY：只用于原始对象本身不满足接口最低结构要求，导致无法构造合法的原样提交对象，例如 words 或 detail 为空。不得为通过接口而虚构内容。
 - INFRA_ERROR：接口不可达、超时或连续返回服务端错误。
 - VALIDATION_ERROR：提交持续返回 422，或返回体不符合接口契约。
 
 连接失败和 5xx 最多重试 3 次。相同 id 连续失败 2 次后停止本轮，避免无限读取同一条。POST 返回“已经 AI 审核”时视为并发跳过并重新 GET；其他 400/404 必须停止并报告，不要绕过业务校验或直接改数据库。
 
-所有接口请求错误必须由助手脚本自动落入本地 JSONL 日志。内容问题在原样提交成功后写独立问题文件；写入失败不得假装成功，应计入 `issue_log_failures`，但继续处理队列。
+所有接口请求错误必须由助手脚本自动落入本地 JSONL 日志。只有被清洗 skill 明确判定为 `submit_original_with_issue` 的重大冲突，才在原样提交成功后写独立问题文件；写入失败不得假装成功，应计入 `issue_log_failures`，但继续处理队列。
 
 ## 完成报告
 

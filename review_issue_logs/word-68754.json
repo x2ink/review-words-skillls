@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T09:28:15+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68754,
+  "words": [
+    "〜進める"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "detail.meanings.examples"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书未收录复合动词后项「〜進める」，其整体重音会随前项形成，无法给出通用固定值；第三条例句「企画を進める」使用独立动词「進める」，未体现接在动词连用形后的用法。七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

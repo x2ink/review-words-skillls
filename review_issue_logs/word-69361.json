@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:39:16+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69361,
+  "words": [
+    "核家族化"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "本地词典仅确认基础词「核家族③」，不能据此可靠推断「核家族化」整体声调，且外部未找到明确数字声调；rome「kaku kazoku ka」违反项目无空格格式，应为「kakukazokuka」；名词与自动词サ变用法按项目规则应合并为「名词·自动词·サ变」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

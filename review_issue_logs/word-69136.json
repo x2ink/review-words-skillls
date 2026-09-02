@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:21:32+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69136,
+  "words": [
+    "消費者金融"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录“消費者金融”，无法可靠补全复合词声调；rome 为含空格的“shouhisha kinyuu”，不符合连续小写 ASCII 规则。已按规则将七个业务字段原样提交，待人工核对。",
+  "ai_source": "chatgpt-5.6"
+}

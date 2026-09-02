@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:16:13+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69401,
+  "words": [
+    "アーチ状"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.meanings,detail.examples,rome"
+  ],
+  "reason": "整体词条声调为空，未找到可可靠确认「アーチ状」整词声调的证据。detail 中「な形容词」不是项目允许标签；「アーチ状」作连体修饰通常用「アーチ状の」，三条「アーチ状な…」例句均不自然，且该块与名词块语义重复，宜删除或合并为名词。罗马字含空格，按项目规则应为 aachijou。因涉及整块结构重写且声调仍不确定，七个业务字段原样提交并记录待人工处理。",
+  "ai_source": "chatgpt-5.6"
+}

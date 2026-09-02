@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:41:20+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68625,
+  "words": [
+    "ハチ公"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "本地参考词典仅检出不同词条“熊公八公”，不能据此确认忠犬专名“ハチ公”的声调；原词性“专有名词”不在项目允许标签中，通常需归入“名词”。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

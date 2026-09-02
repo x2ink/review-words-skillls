@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:00:31+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69436,
+  "words": [
+    "語学留学生"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“gogaku ryuugakusei”，包含不符合项目连续书写规则的空格。因声调缺乏可靠依据，已按约定保持全部七个业务字段原样提交；建议后续确认声调后将罗马字规范为连续形式。",
+  "ai_source": "chatgpt-5.6"
+}

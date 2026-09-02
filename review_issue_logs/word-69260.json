@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:58:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69260,
+  "words": [
+    "和上"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,detail.examples,description"
+  ],
+  "reason": "本地词典仅在「和尚」条目中确认「わじょう」是真言宗等使用的称呼，未提供「和上」独立声调。当前释义泛化为对僧侣、高僧的尊称，适用范围可能偏宽；例句「寺で有名な和上の話を聞きました」也不够自然。按规则七个业务字段原样提交，待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

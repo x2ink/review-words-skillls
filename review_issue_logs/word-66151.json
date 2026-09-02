@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-31T04:45:18+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66151,
+  "words": [
+    "坂本将太"
+  ],
+  "uncertain_fields": [
+    "detail,description"
+  ],
+  "reason": "公开资料可确认多位同名人士，但未找到该姓名对应演员的可靠依据；原词条例句断言其为演员、演技出色并主演电影，无法确定具体人物且不宜凭姓名推断身份。依严重不确定问题规则，七个业务字段原样提交并单独记录。",
+  "ai_source": "chatgpt-5.6"
+}

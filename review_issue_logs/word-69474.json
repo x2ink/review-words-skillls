@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:48:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69474,
+  "words": [
+    "芸術史"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "词条声调为空，本地新明解 OCR 未检索到「芸術史」独立词条；不能直接由「史①」推导复合词声调，故无法可靠补全。罗马字「geijutsu shi」含不合规则的空格，预期连续书写为「geijutsushi」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

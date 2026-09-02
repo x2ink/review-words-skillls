@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T14:26:38+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68547,
+  "words": [
+    "空手着"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典未检出完整复合词“空手着”，不能依据“空手”和接尾“着（ぎ）”的单独读音或声调推算整体东京式声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

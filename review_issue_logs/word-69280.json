@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:19:58+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69280,
+  "words": [
+    "ソ連"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "本地参考确认「ソ連」为「ソビエト社会主義共和国連邦」的简称，但仅给更短简称「ソ①」的声调，未提供「ソ連」独立声调，不能直接沿用。detail.type「专有名词」不在允许词性集合，原则上应改为「名词」。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

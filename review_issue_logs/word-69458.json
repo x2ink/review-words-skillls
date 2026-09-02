@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:28:25+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69458,
+  "words": [
+    "医学部"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 查到的是「医科①」，「医学部」仅作为其释义，不能移用声调。未找到「医学部」独立词条，无法可靠补全，故七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

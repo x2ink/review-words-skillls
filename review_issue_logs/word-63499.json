@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T07:37:42+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 63499,
+  "words": [
+    "ネットショップ"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条 tone 为空。本地 OCR 未收录完整复合词 ネットショップ，无法仅凭组成词可靠推断整体声调；已按要求将原业务字段不变提交。",
+  "ai_source": "chatgpt-5.6"
+}

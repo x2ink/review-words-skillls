@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:54:26+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69177,
+  "words": [
+    "イラブー"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 仅收录标准语「海蛇（うみへび）」而未收录冲绳地域词「イラブー」，不能借用标准语声调。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

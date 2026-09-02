@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:39:31+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69156,
+  "words": [
+    "どーんと"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条 tone 为空。本地新明解 OCR 只收录短形“どんと③・①”，未收录长音强调形“どーんと”，不能直接套用短形声调；长音写法作为拟声强调有实际合理性，未判为假名错误。已将七个业务字段原样提交，待人工核对整体声调。",
+  "ai_source": "chatgpt-5.6"
+}

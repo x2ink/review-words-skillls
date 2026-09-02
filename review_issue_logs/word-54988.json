@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-30T22:16:07+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 54988,
+  "words": [
+    "済ます"
+  ],
+  "uncertain_fields": [
+    "detail[0].meanings[1].examples[1].jp"
+  ],
+  "reason": "已提交例句误用了近义词「済ませる」的て形：古い服で済ませて、新しい服は買わなかった。应改为使用当前词「済ます」的表达：新しい服を買わず、古い服で済ました。接口对同一 ID 重提返回 409 AGENT_DICTIONARY_ALREADY_REVIEWED，无法覆盖；其余字段已完成清洗。",
+  "ai_source": "chatgpt-5.6"
+}

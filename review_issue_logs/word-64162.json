@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-31T04:04:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 64162,
+  "words": [
+    "係る"
+  ],
+  "uncertain_fields": [
+    "words,detail,type,examples"
+  ],
+  "reason": "词头係る与释义严重串条，混入掛かる、架かる、懸かる、罹る及接尾动词～かかる等不同写法和用法；多条例句词形或译文错误，无法在不大规模重建的情况下可靠修正，故原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

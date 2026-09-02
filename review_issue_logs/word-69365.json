@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:43:05+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69365,
+  "words": [
+    "一考察"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome"
+  ],
+  "reason": "本地词典仅收录「考察⓪」，未将「一考察」作为稳定独立词条；该形式通常是论文标题等语境中的生产性短语“一项考察”，不宜无证据固化为词条，整体声调也无法由「考察⓪」可靠推断。rome「ichi kousatsu」含空格，若保留该条应规范为「ichikousatsu」。按问题词条规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

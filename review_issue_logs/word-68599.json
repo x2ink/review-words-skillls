@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:04:49+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68599,
+  "words": [
+    "人気者"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典及已核对的在线词典能确认读音和词义，但未提供可可靠核验的东京式声调标注；依规则不根据构词或语感推算，七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

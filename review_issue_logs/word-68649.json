@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:02:53+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68649,
+  "words": [
+    "西入ル"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome,detail.type"
+  ],
+  "reason": "该表达是京都地址中的方位记法，不宜简单按普通五段自动词处理；书写也可能用「西入る」。整体固定声调无法可靠确定，rome 含空格，词性中的「五段」亦不符合项目规范。因需重定词条性质，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

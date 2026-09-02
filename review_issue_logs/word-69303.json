@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:42:16+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69303,
+  "words": [
+    "インターフォン"
+  ],
+  "uncertain_fields": [
+    "words,kana,tone,rome,detail.examples"
+  ],
+  "reason": "本地词典明确收录标准词头“インターホン③（interphone）”，当前“インターフォン”属于假名词形错误。应将 words/kana 改为“インターホン”、tone 改为“③”、rome 改为“intaahon”，并同步改正三条例句中的词形。按用户约定，有问题的词条七个业务字段原样提交，仅在日志中说明。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:27:18+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68576,
+  "words": [
+    "ふーん"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典只收录近义感叹词“ふん①”，未收录拖长形式“ふーん”；该感叹词音高还会随理解、意外、怀疑等语气变化，无法可靠确定词典式基本声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

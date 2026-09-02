@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:17:23+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68720,
+  "words": [
+    "手数"
+  ],
+  "uncertain_fields": [
+    "kana,tone,rome,detail"
+  ],
+  "reason": "当前数据把「てかず①」（麻烦、周折；棋类着数）与「てすう②」（费事、费力；给人添麻烦）两个读音词条混为一条，kana/rome 使用斜杠且例句义项串合。无法在现有单条结构内可靠拆分，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

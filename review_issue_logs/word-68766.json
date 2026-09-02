@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T09:12:56+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68766,
+  "words": [
+    "賛成派"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书未检出完整词「賛成派」，且不能由「賛成」和接尾成分「派」的独立重音可靠推定复合词重音；已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

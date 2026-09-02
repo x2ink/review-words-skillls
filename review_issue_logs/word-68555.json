@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T14:02:53+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68555,
+  "words": [
+    "東京育ち"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地参考词典未检出完整表达“東京育ち”，不能由“東京”和“育ち”的单独声调推算整体东京式声调；原罗马字含空格，按项目规范应连续写作 toukyousodachi。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

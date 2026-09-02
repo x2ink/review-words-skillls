@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:33:44+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68571,
+  "words": [
+    "大〜"
+  ],
+  "uncertain_fields": [
+    "kana,tone"
+  ],
+  "reason": "kana 字段不应包含接头标记“〜”，规范读音应为“おお”；本地接头条目未给统一声调，且大雨、大人数、大喜び等复合词各有整体重音，无法可靠给接头词填写单一声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

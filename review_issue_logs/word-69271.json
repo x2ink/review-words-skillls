@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:11:04+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69271,
+  "words": [
+    "競技スポーツ"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地参考未收录「競技スポーツ（きょうぎスポーツ）」完整词条，无法可靠确定复合词基本声调；rome「kyougi supootsu」含不符合项目连续小写规范的空格。按规则七个业务字段原样提交，待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

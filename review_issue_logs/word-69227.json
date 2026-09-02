@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:33:50+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69227,
+  "words": [
+    "いける口"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,rome"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 在「行ける⓪」的例释中确认「いける口だ」表示“酒量不错”，但未提供整条表达「いける口」的独立声调。词性“惯用表达”不在项目允许标签集合中，整体通常可按名词性短语归入“名词”；罗马字“ikeru kuchi”含项目不允许的空格。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

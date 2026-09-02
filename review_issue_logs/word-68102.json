@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-29T04:19:30+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68102,
+  "words": [
+    "中国伝統音楽院"
+  ],
+  "uncertain_fields": [
+    "words,kana,rome,detail,description"
+  ],
+  "reason": "无法确认“中国伝統音楽院”是实际存在或通行的正式机构名；本地词典与项目资料均无记录，公开检索也未找到该精确名称，仅发现相近但不同的“中国音楽学院”。不能可靠判断应保留、改为“中国音楽学院”，还是其他机构，故七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

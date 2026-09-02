@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:26:29+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69411,
+  "words": [
+    "ゲット"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.meanings,detail.examples"
+  ],
+  "reason": "整体词条声调为空，未找到可可靠确认「ゲット」东京式数字声调的词典证据。两个 detail 块均描述同一“得到、获得”义，名词与他动サ变用法宜合并为单一 type「名词·他动词·サ变」，并从重复例句中保留不超过三条代表例句。因声调仍不确定且需要整块结构调整，七个业务字段原样提交并记录待人工处理。",
+  "ai_source": "chatgpt-5.6"
+}

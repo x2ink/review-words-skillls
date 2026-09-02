@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:24:35+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69139,
+  "words": [
+    "ネットショッピング"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.meanings"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录“ネットショッピング”，无法可靠补全声调；rome 为含空格的“netto shoppingu”；名词与自动词·サ变两组释义重复，按项目规则宜合并为一个“名词·自动词·サ变”详情。已将七个业务字段原样提交，待人工核对。",
+  "ai_source": "chatgpt-5.6"
+}

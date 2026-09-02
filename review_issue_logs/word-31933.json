@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:18:54+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 31933,
+  "words": [
+    "中"
+  ],
+  "uncertain_fields": [
+    "kana,tone,rome,detail,description"
+  ],
+  "reason": "严重串读且声调缺失：kana 为“ちゅう”，tone 为空，但 rome 为“naka”，六组释义和例句均属于读作“なか”的“中”。可靠修复需要确认目标读音并整条重建。已按约定保持七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

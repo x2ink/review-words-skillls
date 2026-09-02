@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T06:27:07+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 54672,
+  "words": [
+    "いつのまにか"
+  ],
+  "uncertain_fields": [
+    "words,kana,tone,rome,detail.examples.jp"
+  ],
+  "reason": "词头及三条日语例句均为「いつのまにか」，但 kana=「いつしか」、rome=「itsushika」、tone=「①」彼此对应另一个同义副词「いつしか」。无法确定应修正词头和例句，还是修正假名、罗马字及声调；已按规则将原业务字段不变提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T15:15:01+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68533,
+  "words": [
+    "轟"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type,detail.meanings"
+  ],
+  "reason": "本地参考只确认普通名词“轟き⓪”和动词“轟く③”，未收录姓氏“轟（とどろき）”，不能串用声调；当前例句均为姓氏用法，释义“轰；日本人名或姓氏”混合普通义与专名义，且“专有名词”不在项目允许标签中。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

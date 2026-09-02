@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T15:02:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68537,
+  "words": [
+    "〜における"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "该结构与“において”同源，本地参考未提供独立句型声调；原罗马字含空格，应连续为 niokeru；“句型”不在项目允许词性标签中，该多词语法结构无法可靠映射为单一基本声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

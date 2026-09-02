@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:48:52+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69246,
+  "words": [
+    "至難の技"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type,rome"
+  ],
+  "reason": "本地词典以「至難の業」为标准搭配，并收录「至難①」，但未给出整句「しなんのわざ」的基本声调；当前「至難の技」是否作为异写保留需人工判断。detail.type「惯用表达」不在允许词性集合，rome「shinan no waza」含空格。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

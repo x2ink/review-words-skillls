@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:17:11+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 31093,
+  "words": [
+    "名"
+  ],
+  "uncertain_fields": [
+    "kana,tone,rome,detail,description"
+  ],
+  "reason": "严重串读且声调缺失：kana 为“めい”，tone 为空，但 rome 为“na”，所有释义和例句也属于读作“な”的“名”。可靠修复需要确认目标读音并整条重建。已按约定保持七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

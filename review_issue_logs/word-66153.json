@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-31T04:46:42+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66153,
+  "words": [
+    "平成大学"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "未找到正式名称为“平成大学”的现行大学；公开资料仅能对应帝京平成大学、福山平成大学、平成国際大学等不同学校，无法判断原数据意指何者。东京所在地及经济学就读例句也无法归属核实。依严重不确定问题规则，七个业务字段原样提交并单独记录。",
+  "ai_source": "chatgpt-5.6"
+}

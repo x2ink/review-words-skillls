@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:14:39+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69489,
+  "words": [
+    "株式市場"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "词条声调为空，本地新明解 OCR 未检索到「株式市場」独立词条，无法可靠补全完整复合词声调。罗马字「kabushiki shijou」含不合规则的空格，预期连续书写为「kabushikishijou」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

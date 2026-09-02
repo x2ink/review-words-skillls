@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:13:58+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 67185,
+  "words": [
+    "それじゃ"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 字段为空；本地参考资料中未找到足以可靠确定本词条基本声调的证据。已按约定保持七个业务字段原样提交，未凭推测补写声调。",
+  "ai_source": "chatgpt-5.6"
+}

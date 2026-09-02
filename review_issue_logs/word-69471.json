@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:43:57+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69471,
+  "words": [
+    "時間割"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 只在「編成」例句中出现「時間割」，未检索到「時間割／時間割り」独立词条，无法可靠补全声调。按规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

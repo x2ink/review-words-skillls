@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:55:22+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68605,
+  "words": [
+    "これはこれは"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典将该整句型感叹词标为⑥、⓪-③、⓪-⓪等分段重音，项目 tone 规则无法无损表达分段结构，故不能可靠补齐；原罗马字含空格，按项目规范应连续写作 korewakorewa。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

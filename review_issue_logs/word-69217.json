@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:25:48+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69217,
+  "words": [
+    "按摩師"
+  ],
+  "uncertain_fields": [
+    "tone,words,detail.meanings,detail.examples,description"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 收录「あんま⓪（按摩、按摩师）」但未提供「按摩師／あんま師」的独立声调，无法可靠补全。读法「あんまし」成立；但现代日本法定职业名为「あん摩マッサージ指圧師」，「按摩師／あんま師」多属旧称或简称，原释义和现代场景例句未说明这一使用范围，且现代常用表记通常为“あんま師／あん摩師”。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

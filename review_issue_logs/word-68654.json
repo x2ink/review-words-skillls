@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:53:22+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68654,
+  "words": [
+    "大唐時代"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome,detail.examples"
+  ],
+  "reason": "本地参考词典未收录「大唐時代」，现代日语通常说「唐代」或「唐の時代」；当前词形及三条例句有明显汉语直译倾向。rome 含空格，固定声调也无法可靠确认。因需整体重构，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

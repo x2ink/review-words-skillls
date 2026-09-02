@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:23:34+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68717,
+  "words": [
+    "原田"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "姓氏「原田」的声调可能因家族或地区而异，本地资料未提供可统一采用的声调；当前「专有名词」又不在项目规范词性集合内，无法可靠决定替代标签。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

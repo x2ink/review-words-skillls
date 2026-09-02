@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:05:58+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69426,
+  "words": [
+    "この上ない"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,rome"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 仅能确认释义与用法，未保留可判定声调；detail.type 使用项目不接受的“惯用表达”；rome 为含空格的“kono ue nai”，不符合连续小写 ASCII 规则。因声调无法可靠补全，已按规则将七个业务字段原样提交，待人工统一核对。",
+  "ai_source": "chatgpt-5.6"
+}

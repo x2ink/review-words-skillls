@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-01T09:15:01+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68764,
+  "words": [
+    "どちらかと言えば"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "rome",
+    "detail.type"
+  ],
+  "reason": "原始 tone 为空，rome 含不符合项目格式的空格；该表达按用法更接近副词性固定短语，原 detail.type「接续词」存在疑点。本地 OCR 辞书仅检出用例，没有完整短语重音，无法可靠修正；七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

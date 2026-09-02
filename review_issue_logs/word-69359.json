@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:37:17+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69359,
+  "words": [
+    "内閣府"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "原词条声调为空，未找到可靠的东京式数字声调证据，无法高置信补全；词性「专有名词」不在项目允许词性集合中，按规则应改为「名词」。因存在未解决的声调问题，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

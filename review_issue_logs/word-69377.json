@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:52:53+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69377,
+  "words": [
+    "発信源"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典仅确认基础词「発信⓪」，不能据此可靠推断复合词「発信源」整体声调，外部资料确认读音和含义但未给出明确数字声调。rome「hasshin gen」含空格，按项目格式应为「hasshingen」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

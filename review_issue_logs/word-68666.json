@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:40:36+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68666,
+  "words": [
+    "千宗室"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type,detail.meanings"
+  ],
+  "reason": "「千宗室」是里千家家元的世袭名号，并非只指单一人物；整体声调难以用一个数字可靠统一。rome 含空格，「专有名词」也不在项目规范词性集合内。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:50:42+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69172,
+  "words": [
+    "青さ"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 仅检出同音植物名「あおさ（石莼）」及例句中的“青さ”，未检出派生名词「青さ」的独立声调记录，不能借用同音词声调或凭词干推断。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

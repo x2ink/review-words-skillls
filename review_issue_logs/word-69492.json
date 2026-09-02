@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:21:51+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69492,
+  "words": [
+    "説明会"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 未检索到「説明会」独立词条，无法可靠推定复合词声调。按规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:16:05+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69339,
+  "words": [
+    "余儀"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地词典未收录“余儀”的独立词头，只收录固定形式“余儀無い③・①”。整词声调不能直接截取为名词词干的声调，未取得可核验的独立基本声调值。无法在不猜测的情况下补全 tone，故按原字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

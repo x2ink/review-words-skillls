@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:45:19+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69163,
+  "words": [
+    "バンカラ"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 参考未检出该词条，无法可靠补全。detail 中使用了项目禁止标签“な形容词”；虽然通常可规范为“形容动词”，但因词条同时存在无法解决的声调缺失，依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

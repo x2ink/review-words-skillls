@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:06:10+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68648,
+  "words": [
+    "下ル"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type"
+  ],
+  "reason": "该表达是京都地址中的方位记法，虽读「さがる」，但不宜直接等同普通动词「下がる」；片假名表记、词条性质及固定声调需专门判断，词性中的「五段」也不符合项目规范。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

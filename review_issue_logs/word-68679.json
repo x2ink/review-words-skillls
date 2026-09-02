@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:22:59+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68679,
+  "words": [
+    "なのに"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples"
+  ],
+  "reason": "当前数据混合句中接续助词与句首接续词用法，只标「接续词」不完整；本地资料未提供可可靠采用的固定声调。第三例「一生懸命勉強した。なのに、試験は難しかった」对比逻辑偏弱，中文“还是”也未充分对应。因需重整结构与例句，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

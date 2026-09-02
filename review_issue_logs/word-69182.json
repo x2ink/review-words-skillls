@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:58:17+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69182,
+  "words": [
+    "ゴーヤーチャンプルー"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 参考未检出该冲绳料理名或其构成词，无法可靠补全整体声调；罗马字“gooyaa chanpuruu”含项目不允许的空格。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

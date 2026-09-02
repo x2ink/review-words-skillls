@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T15:47:36+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68521,
+  "words": [
+    "木村あゆみ"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "本地参考词典未检出该完整姓名，无法可靠确认姓名组合声调或具体人物身份；原罗马字含空格，按项目规范应连续写作 kimuraayumi；原词性“专有名词”不在项目允许标签中。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

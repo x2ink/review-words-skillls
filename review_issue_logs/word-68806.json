@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T08:31:01+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68806,
+  "words": [
+    "成長率"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书仅检出完整词组「経済成長率」的重音，未直接收录独立词「成長率」，无法可靠反推其复合词重音；已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

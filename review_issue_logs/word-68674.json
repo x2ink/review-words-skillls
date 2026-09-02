@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:29:23+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68674,
+  "words": [
+    "裏千家"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "该茶道流派专名缺少可可靠确认的固定声调；当前「专有名词」不在项目规范词性集合内，且无法确定唯一替代标签。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

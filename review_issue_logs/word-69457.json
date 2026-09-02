@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:27:19+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69457,
+  "words": [
+    "理学部"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 未检索到「理学部」独立词条，无法可靠补全声调。按规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

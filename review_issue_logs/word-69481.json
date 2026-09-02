@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:57:15+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69481,
+  "words": [
+    "留学生会"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 未检索到「留学生会」独立词条，无法可靠补全复合词声调。按规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

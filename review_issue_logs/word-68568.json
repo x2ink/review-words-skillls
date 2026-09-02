@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:38:45+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68568,
+  "words": [
+    "〜にかけて"
+  ],
+  "uncertain_fields": [
+    "kana,tone,rome,detail.type"
+  ],
+  "reason": "kana 字段不应包含句型标记“〜”，规范候选为“にかけて”；原罗马字含空格，应连续为 nikakete；“句型”不在项目允许词性标签中，且该多词语法结构无法可靠映射为单一基本声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

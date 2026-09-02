@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:24:36+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69454,
+  "words": [
+    "教育学部"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 仅将「教育学部」作为师范学校后继机构的例示，未找到可独立核实的词条声调。罗马字「kyouiku gakubu」含不合规则的空格，预期连续书写为「kyouikugakubu」。因声调无法可靠补全，按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

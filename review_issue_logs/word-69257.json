@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:55:58+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69257,
+  "words": [
+    "ミーハー"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "本地参考未收录「ミーハー」完整词条，无法可靠确定基本声调。detail.type「な形容词」不在允许词性集合，原则上应规范为「形容动词」，并可与名词用法合并为「名词·形容动词」单一词性块。按规则七个业务字段原样提交，待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

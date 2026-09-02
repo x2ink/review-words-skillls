@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:09:30+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69195,
+  "words": [
+    "健康診断書"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 参考未检出该完整长复合词，无法可靠补全；罗马字“kenkou shindansho”含项目不允许的空格。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

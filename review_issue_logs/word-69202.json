@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:14:24+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69202,
+  "words": [
+    "無形文化財"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.meanings,detail.examples,description"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 未收录该完整制度性复合词，无法可靠补全；罗马字“mukei bunkazai”含项目不允许的空格。日本文化厅将「無形文化財」定义为具有历史或艺术价值的演剧、音乐、工艺技术等无形文化产物，而祭礼通常归入「無形民俗文化財」；原释义把“传统”等泛化纳入，第一条例句「その祭りは無形文化財に指定」也可能混淆法定分类，description 中“非物质文化遗产”还可能与联合国教科文组织概念混同。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

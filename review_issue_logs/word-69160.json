@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:43:23+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69160,
+  "words": [
+    "被爆者"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录“被爆者”，无法可靠补全声调。词形“被爆者”与原子弹、核爆受害者之义一致，未发现与“被曝者”混淆；其余字段无明确错误。已将七个业务字段原样提交，待人工核对声调。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:49:46+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68695,
+  "words": [
+    "俵万智"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "该人名通常分姓与名两个韵律单位，无法可靠用单一数字声调统一表示；rome 含空格，不符合连续书写规则；「专有名词」不在规范词性集合内。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

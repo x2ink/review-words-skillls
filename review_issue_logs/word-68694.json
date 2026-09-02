@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:50:39+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68694,
+  "words": [
+    "まあね"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "该短语式会话应答缺少可可靠统一的单一声调；rome 含空格，不符合项目连续书写规则。因声调无法可靠修正，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

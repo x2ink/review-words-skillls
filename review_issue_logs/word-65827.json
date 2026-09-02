@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T02:32:08+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 65827,
+  "words": [
+    "若年層"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原词条声调为空，本地新明解 OCR 参考仅见普通用例，未检得可可靠确认基本声调的独立词条；罗马字 jakunennsou 与假名对应疑似多写一个 n，按项目格式可能应为 jakunensou。依约七个业务字段原样提交，待人工核验。",
+  "ai_source": "chatgpt-5.6"
+}

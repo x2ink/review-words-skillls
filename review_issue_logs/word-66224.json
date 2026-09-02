@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-08-31T05:35:11+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66224,
+  "words": [
+    "大沢直人"
+  ],
+  "uncertain_fields": [
+    "kana",
+    "detail"
+  ],
+  "reason": "无法从可靠公开资料确认该姓名对应的演员身份、标准读音及主演电影；同名公开记录不足以支持现有职业和作品例句。",
+  "ai_source": "chatgpt-5.6"
+}

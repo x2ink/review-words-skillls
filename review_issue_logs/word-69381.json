@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:57:34+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69381,
+  "words": [
+    "誤字脱字"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典只确认构成词「誤字①」「脱字⓪」，未收录固定并列语「誤字脱字」的整体声调；该表达也可能按两个声调单位发音，外部未找到明确可核验的数字标注。rome「goji datsuji」含空格，按项目格式应为「gojidatsuji」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

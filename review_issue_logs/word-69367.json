@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:44:50+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69367,
+  "words": [
+    "博報堂"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "原词条声调为空；本地词典未收录该公司名，外部资料只能确认官方读音「はくほうどう」，未找到可靠的东京式数字声调。词性「专有名词」不在项目允许集合中，应改为「名词」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

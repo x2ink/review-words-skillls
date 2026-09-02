@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:52:13+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69508,
+  "words": [
+    "〜ごろ"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空。本地新明解 OCR 明确收录的是「ころ①【頃】」，另有「ごろ（造语）」但其义项偏向正好时机／适当程度，且未显示可用声调；不能将「ころ①」直接套用于表示大约时间的接尾词「〜ごろ」。无法可靠补全，故七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

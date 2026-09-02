@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:53:41+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69176,
+  "words": [
+    "おばあ"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 仅收录标准语「おばあさん②」，未收录冲绳地域用法「おばあ」；不能将标准语声调直接套用于该地域词形。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

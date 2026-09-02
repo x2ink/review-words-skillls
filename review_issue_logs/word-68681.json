@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:19:21+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68681,
+  "words": [
+    "くせに"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type,detail.examples"
+  ],
+  "reason": "本地资料确认其为接续助词，但「接续助词」不在项目规范词性集合；rome 含空格；资料未给可可靠采用的固定声调。第三例「忙しいくせに、いつも手伝ってくれます」又缺少该表达通常带有的责难、不满语气，较不自然。因多项需重构，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

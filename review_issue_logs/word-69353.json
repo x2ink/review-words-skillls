@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:33:16+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69353,
+  "words": [
+    "リソース"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条声调为空；本地新明解 OCR 未收录该现代借词，外部检索也未找到可明确给出东京式数字声调的可靠词典证据，因此无法高置信补全，按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

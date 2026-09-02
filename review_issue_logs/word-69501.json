@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:34:50+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69501,
+  "words": [
+    "履修登録"
+  ],
+  "uncertain_fields": [
+    "tone,detail,rome"
+  ],
+  "reason": "词条声调为空，本地新明解 OCR 未检索到「履修登録」独立词条，无法可靠补全。名词与サ变义项高度重叠，按项目规则宜合并为单一「名词·他动词·サ变」详情块；部分「授業を履修登録する」例句搭配也需人工确认。罗马字「rishuu touroku」含不合规则的空格，预期连续书写为「rishuutouroku」。因声调无法可靠修正，按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

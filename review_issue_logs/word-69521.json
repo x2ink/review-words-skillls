@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T15:21:02+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69521,
+  "words": [
+    "準〜"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 未检索到接头词「準〜／じゅん」的独立声调记录，只能查到「準急」「準決勝」等各自复合词，不能据此推定接头词声调。无法可靠补全，故七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

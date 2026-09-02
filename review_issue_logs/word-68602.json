@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:00:32+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68602,
+  "words": [
+    "一時帰国"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail"
+  ],
+  "reason": "本地参考词典未检出完整复合词，无法可靠确认整体声调；原罗马字含空格，规范形式应为 ichijikikoku；名词与自动词·サ变两个同义块应合并为单一“名词·自动词·サ变”结构并去重例句。因无法完整可靠补齐声调，依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

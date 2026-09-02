@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:25:42+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68716,
+  "words": [
+    "〜氏"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "该敬称接尾成分附着在人名后使用，本地资料未提供可统一采用的接尾声调；不能套用独立名词「うじ①」的声调，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:02:23+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69431,
+  "words": [
+    "取り払う"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条 tone 为空。本地新明解 OCR 能确认词形、词性和释义，但该词条的声调标记在 OCR 文本中缺失，无法可靠补全；已按规则原样提交，待人工核对权威声调资料。",
+  "ai_source": "chatgpt-5.6"
+}

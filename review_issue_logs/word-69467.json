@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:39:24+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69467,
+  "words": [
+    "検索用"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome"
+  ],
+  "reason": "「検索用」更像由「検索」与接尾成分「用」组成的组合表达，本地新明解 OCR 未检索到独立词条，无法可靠确认词条身份或声调；tone 为空。罗马字「kensaku you」含不合规则的空格，若保留该词形，预期连续书写为「kensakuyou」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

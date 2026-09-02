@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:16:06+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69129,
+  "words": [
+    "秧歌"
+  ],
+  "uncertain_fields": [
+    "tone,kana,words"
+  ],
+  "reason": "原词条 tone 为空，本地新明解 OCR 未收录该词，公开资料也未提供可用日语声调。读音“ヤンガー”在日本活动名称及中文来源日语版中有实际使用，并非明显假名错误；但日本主流辞书通常以“ヤンコー”或“ヤンコ”作独立词头，另有音读“おうか”。不同读音不能合并到同一 kana 词条，需要人工确定本项目的首选收录形式。已将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

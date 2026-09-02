@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:40:15+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69362,
+  "words": [
+    "ペットロボット"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原词条声调为空；本地词典只收录「ペット①」「ロボット②」，不能由构词成分可靠推断复合词整体声调，外部词典也未显示明确数字声调。rome「petto robotto」含空格，按项目格式应为「pettorobotto」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

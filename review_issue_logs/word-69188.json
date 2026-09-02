@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:03:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69188,
+  "words": [
+    "つまみ食い"
+  ],
+  "uncertain_fields": [
+    "tone,detail"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 参考未检出该完整词条，无法可靠补全。detail 将同一词义拆为“名词”和“他动词·サ变”两个重复块，规范时通常应合并为“名词·他动词·サ变”，但因声调问题仍未解决，依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:12:46+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69336,
+  "words": [
+    "同"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地词典将“同”列为汉语构词成分，示例“同社、同氏、同年”等各自形成不同复合词声调，没有可统一套用的独立基本声调。为避免误填，tone 保持为空，七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:34:02+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68670,
+  "words": [
+    "敬い合う"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples"
+  ],
+  "reason": "该复合他动词本地资料未收录，无法可靠确认固定声调；词性中的「五段」按规则应删除。第二例「相手を敬い合う」和第三例「文化を敬い合う」搭配不够自然，通常应改为「互いを敬い合う」「互いの文化を敬い合う」。因多项需修正，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

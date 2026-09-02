@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:29:37+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69288,
+  "words": [
+    "打具"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "体育研究与官方资料确认「打具（だぐ）」是实际术语，指球拍、球杆、球棒等击球器具，当前词形、读音与释义可信；但本地词典未收录，未获得可靠基本声调依据。按规则七个业务字段原样提交，待人工补充声调。",
+  "ai_source": "chatgpt-5.6"
+}

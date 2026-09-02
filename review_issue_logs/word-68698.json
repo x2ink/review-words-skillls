@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:47:39+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68698,
+  "words": [
+    "身を置く"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "该多词固定搭配无法可靠用单一数字表示整体声调；「惯用表达」不在规范词性集合；rome 含空格且助词「を」按项目规则应写为 o 而非 wo。因整体结构无法可靠重建，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

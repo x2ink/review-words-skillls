@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T08:41:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68795,
+  "words": [
+    "熱狂的"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "detail.type"
+  ],
+  "reason": "原始 tone 为空，且 detail.type 使用项目类型表之外的「な形容词」。本地 OCR 辞书未检出完整词「熱狂的」，无法可靠确定重音；按重大不确定规则，七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

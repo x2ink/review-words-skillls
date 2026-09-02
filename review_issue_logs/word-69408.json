@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:22:54+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69408,
+  "words": [
+    "きゃー"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "tone 为空。「きゃー」是表示惊讶、恐惧或兴奋的感叹声，实际音高与时长会随语气和语境变化；未找到可支持将其固定为单一东京式数字声调的可靠词典证据。依据问题词条处理规则，七个业务字段原样提交并记录待人工决定是否允许此类感叹词保留空声调。",
+  "ai_source": "chatgpt-5.6"
+}

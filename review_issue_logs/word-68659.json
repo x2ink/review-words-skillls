@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:47:27+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68659,
+  "words": [
+    "森山"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "姓氏「森山」的声调可能因家族或地区而异，无法可靠统一；当前「专有名词」不在项目规范词性集合内，且无法确定唯一替代标签。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

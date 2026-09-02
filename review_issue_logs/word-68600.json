@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:03:18+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68600,
+  "words": [
+    "就職難"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典未检出完整复合词“就職難”，不能依据“就職”和“難”的单独声调推算整体东京式声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

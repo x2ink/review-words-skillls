@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T04:59:57+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69184,
+  "words": [
+    "島豆腐"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 参考未检出该完整复合词，无法可靠补全，也不应由构成语素声调机械推断。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:44:40+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69240,
+  "words": [
+    "眼前描写"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.meanings,detail.examples,description"
+  ],
+  "reason": "检索确认「眼前描写」可用于语言学及文学论述，并非明确误写；但本地参考无完整词条，无法可靠确定声调。rome「ganzen byousha」含不符合连续小写规范的空格；当前释义仅限眼前所见，例句又集中于俳句，词义范围与术语属性需人工复核。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

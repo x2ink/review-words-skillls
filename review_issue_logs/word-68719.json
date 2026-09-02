@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:19:32+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68719,
+  "words": [
+    "それはそれは"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type"
+  ],
+  "reason": "该固定短语兼具程度强调与感叹用法，当前仅标感叹词可能不完整；rome 含空格，不符合连续书写规则；本地资料又无法可靠确认固定声调。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

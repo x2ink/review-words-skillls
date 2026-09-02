@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:58:59+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69482,
+  "words": [
+    "ニュースレター"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "词条声调为空，本地新明解 OCR 未检索到「ニュースレター」独立词条，无法可靠补全。罗马字「nyuusu retaa」含不合规则的空格，预期连续书写为「nyuusuretaa」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

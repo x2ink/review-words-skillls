@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:10:16+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69196,
+  "words": [
+    "診断書"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 仅在其他词条例句中出现「診断書」，未提供该词的独立声调记录，无法可靠补全。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

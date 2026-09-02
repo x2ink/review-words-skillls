@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:06:00+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69389,
+  "words": [
+    "物す"
+  ],
+  "uncertain_fields": [
+    "words,kana,tone,detail.type,detail.meanings,detail.examples,rome,description"
+  ],
+  "reason": "词条发生明显串位。本地词典收录「物す（ものす）②」为古雅的自サ变，义为在、去、来、做、写、吃等；“作诗、写文章”这一专门义及本条例句中的「物しました」对应「物する（ものする）」这一他サ变词形。原 type「他动词·五段」同时包含错误活用分类，tone 为空。无法在不重构整个词条的情况下可靠修正，故七个业务字段原样提交并记录待人工处理。",
+  "ai_source": "chatgpt-5.6"
+}

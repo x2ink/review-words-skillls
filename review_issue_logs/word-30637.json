@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:16:09+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 30637,
+  "words": [
+    "人"
+  ],
+  "uncertain_fields": [
+    "kana,rome,detail,description"
+  ],
+  "reason": "严重串读：kana 为“にん”，但 rome 为“hito”，八组释义和例句也全部属于“ひと”。本地词典显示“にん【人】”主要指人的性格、能力、资历，以及计算人数的量词；可靠修复需要整条重建。已按约定保持七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:37:57+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69296,
+  "words": [
+    "過放牧"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples"
+  ],
+  "reason": "专业机构资料稳定确认“過放牧”为名词，也可见“過放牧をする”；但当前条目直接设为“他动词·サ变”并使用“牧草地を過放牧する”等例句，词汇化程度与自然度依据不足。本地词典未收录，亦无可靠声调值，无法安全重构，故原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

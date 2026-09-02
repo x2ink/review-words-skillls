@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-01T09:19:19+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68761,
+  "words": [
+    "と言うのは"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "rome",
+    "detail.meanings.examples"
+  ],
+  "reason": "原始 tone 为空，rome 含不符合项目格式的空格。本地 OCR 辞书只有「というのは」用例，没有完整短语重音；第三条例句「彼が欠席したというのは、本当ですか」应为“他缺席这件事是真的吗”，原译误成“他说他缺席”。因关键重音无法可靠修正，七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

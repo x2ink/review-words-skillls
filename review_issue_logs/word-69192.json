@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:07:35+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69192,
+  "words": [
+    "青茶"
+  ],
+  "uncertain_fields": [
+    "tone,kana,rome"
+  ],
+  "reason": "声调字段为空，本地新明解 OCR 未收录中国茶分类词「青茶」。外部日语资料同时可见「チンチャ」「せいちゃ」「あおちゃ」等读法，其中「チンチャ」并非可直接判错的词形，但项目未明确多读法收录策略，也缺乏可用的标准声调证据；罗马字应随最终选定读法确定。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

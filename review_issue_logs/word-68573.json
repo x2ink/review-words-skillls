@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:30:45+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68573,
+  "words": [
+    "両国"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "本地参考词典只收录普通名词“両国（りょうこく）①”和异词“領国（りょうごく）⓪”，不能据此确认东京地名“両国（りょうごく）”的声调；原词性“专有名词”不在项目允许标签中。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

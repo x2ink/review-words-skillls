@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T10:10:41+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68725,
+  "words": [
+    "ヒット作"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地参考资料未收录该复合词，无法可靠确认固定声调；rome 含空格且不符合项目连续书写规则。因声调无法可靠修正，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:53:02+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69253,
+  "words": [
+    "古今"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type"
+  ],
+  "reason": "本地词典收录普通名词「古今（ここん）①」，当前「こきん」则是《古今集／古今和歌集》的简称读法，两者不可合并；本地未提供该简称的独立声调。detail.type「专有名词」不在允许词性集合，原则上应改为「名词」。按规则七个业务字段原样提交，待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

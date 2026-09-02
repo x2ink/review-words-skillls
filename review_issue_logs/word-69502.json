@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:38:04+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69502,
+  "words": [
+    "フォン"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.meanings,detail.examples,description"
+  ],
+  "reason": "日语中的「フォン」通常作为「スマートフォン」等复合词成分使用，单独表示「电话；手机」的词条身份可疑；例句「このフォンは使い方が簡単です」不自然，且「スマートフォン」例句不能证明「フォン」可独立使用。tone 为空，本地新明解 OCR 未检索到独立「フォン」词条，无法可靠重建。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

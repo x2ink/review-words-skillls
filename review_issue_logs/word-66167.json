@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-31T04:55:13+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 66167,
+  "words": [
+    "Ａソ連型"
+  ],
+  "uncertain_fields": [
+    "kana,detail,rome,description"
+  ],
+  "reason": "Aソ連型是过去用于季节性甲型流感A(H1N1)的旧称，2009年后被A(H1N1)pdm09取代；原词条三条例句却全部描述机器、技术和汽车，属于严重跨领域串条，且读音、罗马字和说明也需整体重建。依规则，七个业务字段原样提交并单独记录。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:53:46+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69254,
+  "words": [
+    "冗談半分"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,rome"
+  ],
+  "reason": "本地参考未收录「冗談半分（じょうだんはんぶん）」完整短语，无法可靠确定整体声调。detail.type「惯用表达」不在允许词性集合，需人工确定标为「名词」「副词」或组合；rome「joudan hanbun」含不符合连续小写规范的空格。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-29T05:59:22+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68201,
+  "words": [
+    "海東大学"
+  ],
+  "uncertain_fields": [
+    "words,detail,description"
+  ],
+  "reason": "无法确认“海東大学”对应的现实院校；精确检索结果主要为虚构作品中的同名大学，现有例句也未提供国家、城市或作品语境，无法可靠判断是虚构专名、误写还是缺少上下文，因此按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T09:10:53+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68767,
+  "words": [
+    "〜派"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书收录独立名词「派①」及多个复合例，但未给接尾成分「〜派」可通用于不同前项的固定重音；复合词重音不能据独立词反推，已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

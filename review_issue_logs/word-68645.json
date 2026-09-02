@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T12:11:19+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68645,
+  "words": [
+    "有る無し"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.examples"
+  ],
+  "reason": "该口语性“有无”表达可成立，但三个例句在此类正式搭配中通常更自然地用「有無」。完整短语固定声调无法可靠确定，rome 含空格。因需判断语体与词条定位，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

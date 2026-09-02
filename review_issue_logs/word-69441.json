@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:06:28+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69441,
+  "words": [
+    "〜者"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 字段为空；该条为接尾词“しゃ”，在“責任者、参加者、初心者”等具体复合词中的声调由整个词决定，无法可靠给出一个独立固定声调。已按约定保持七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

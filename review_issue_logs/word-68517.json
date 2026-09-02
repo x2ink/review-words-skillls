@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T16:03:55+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68517,
+  "words": [
+    "演習室"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典未检出“演習室”完整词条，无法可靠确认该复合词的基础声调。词形、假名、释义、词性、例句和罗马字均无明确错误，依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

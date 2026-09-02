@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:49:53+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69313,
+  "words": [
+    "社会力"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,detail.examples,rome,description"
+  ],
+  "reason": "学术资料将门胁厚司提出的“社会力”稳定定义为“人与人连接并创造社会的能力”，并强调它不同于顺应既有社会的“社会性”。当前释义“社会交往能力；社会适应能力”明显缩窄且部分偏义，例句和 description 也随之失准；rome 含空格，应为“shakairyoku”；本地词典未收录，声调无可靠依据。无法在保持概念准确的同时可靠补全所有字段，故按约定原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

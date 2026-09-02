@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:41:51+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68665,
+  "words": [
+    "和敬清寂"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典仅给出「和敬⓪」并将「和敬清寂」解释为茶道精神，未给完整四字语统一声调；该词也常按「和敬・清寂」两个韵律单位读。rome 含空格，不符合连续书写规则。因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

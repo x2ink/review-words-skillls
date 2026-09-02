@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:58:28+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69322,
+  "words": [
+    "ピンイン"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地词典未收录该中文语言学借词，未找到可核验的日语基本声调值。词形、读音、释义和罗马字 pin\\u0027in 均可成立，但无法在不猜测的情况下补全 tone，故按原字段提交。",
+  "ai_source": "chatgpt-5.6"
+}

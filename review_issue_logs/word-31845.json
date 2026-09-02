@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T02:42:52+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 31845,
+  "words": [
+    "なりとも"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.meanings"
+  ],
+  "reason": "原词条声调为空；本地新明解 OCR 能确认两个主要用法，但未提供可可靠采用的基本声调。词性 副助 不符合项目标签，建议人工核验后改为 助词；第二义更准确为接疑问词表示不论何处、什么等均可，原“任选”概括及部分例句需复核。依约七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:05:10+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69329,
+  "words": [
+    "コスト削減"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,detail.examples,rome"
+  ],
+  "reason": "“コスト削減”作为名词短语成立，但当前另设“他动词·サ变”块并使用“物流費をコスト削減しました”，句法不自然；宜仅保留名词用法，或将动词例句改为“物流費を削減しました／コストを削減しました”。本地词典未收录整个搭配，声调无可靠依据；rome 含空格，应为“kosutosakugen”。无法可靠完成所有字段，故按约定原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

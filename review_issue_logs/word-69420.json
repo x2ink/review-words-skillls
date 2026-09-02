@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:38:16+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69420,
+  "words": [
+    "テーブルセット"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,detail.examples,rome,description"
+  ],
+  "reason": "词义发生明显误译。在本条例句语境中，「テーブルセット」通常指桌子与椅子组成的成套家具，并非刀叉、碗碟等“成套餐具”；三条日文例句均适合家具义，但对应中文翻译、meaning.zh 和 description 都误写为餐具。整体声调为空且未找到可可靠确认整词数字声调的词典证据。罗马字含空格，按项目规则应为 teeburusetto。因涉及全部释义和例句译文重写且声调仍不确定，七个业务字段原样提交并记录待人工处理。",
+  "ai_source": "chatgpt-5.6"
+}

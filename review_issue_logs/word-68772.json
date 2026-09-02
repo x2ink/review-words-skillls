@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T09:04:37+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68772,
+  "words": [
+    "でね"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "rome"
+  ],
+  "reason": "原始 tone 为空，且 rome 含不符合项目格式的空格。本地 OCR 辞书未把口语承接表达「でね」作为独立词收录，其高低还受会话语调影响，无法可靠补固定重音；已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

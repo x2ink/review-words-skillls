@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T14:09:56+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68552,
+  "words": [
+    "オッケー"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type"
+  ],
+  "reason": "本地参考词典仅收录标准形式“オーケー”并给出①・②・③，未收录促音口语形“オッケー”，不能直接移植声调；当前“副词”标签不准确，按用法通常更接近“感叹词”，同时是否应将标准形式オーケー置于 words 首位需复核。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

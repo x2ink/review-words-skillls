@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T03:11:45+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 48731,
+  "words": [
+    "めく"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条声调为空；本地新明解 OCR 参考仅检得春めく等派生词，未检得接尾词 めく 的独立基本声调，且不能由派生词声调可靠反推。依约七个业务字段原样提交，待人工补充声调。",
+  "ai_source": "chatgpt-5.6"
+}

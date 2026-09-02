@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:56:43+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69258,
+  "words": [
+    "朝日新聞"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,rome"
+  ],
+  "reason": "本地参考未收录「朝日新聞（あさひしんぶん）」完整词条，无法可靠确定专名的基本声调。detail.type「专有名词」不在允许词性集合，原则上应改为「名词」；rome「asahi shinbun」含不符合项目连续小写规范的空格。按规则七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

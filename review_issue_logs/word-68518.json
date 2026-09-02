@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T16:01:41+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68518,
+  "words": [
+    "三好学"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail.type,detail.meanings,detail.examples"
+  ],
+  "reason": "本地参考词典未检出该完整姓名，无法可靠确认姓名声调或具体人物身份；“三好学”也对应日本植物学家三好学，而当前例句称其研究日本语教育，可能是同名虚构人物或身份串条。原罗马字含空格，按项目规范应连续写作 miyoshimanabu；原词性“专有名词”不在项目允许标签中。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

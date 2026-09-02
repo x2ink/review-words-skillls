@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:50:39+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69374,
+  "words": [
+    "URL"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原词条声调为空；已确认标准读音为「ユーアールエル」，但本地词典未收录，外部资料未给出可靠的东京式数字声调，且字母缩略词整体发音可能有变体。rome「yuu aaru eru」含空格，按项目格式应为「yuuaarueru」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

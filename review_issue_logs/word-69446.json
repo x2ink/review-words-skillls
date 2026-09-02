@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:12:32+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69446,
+  "words": [
+    "文系学部"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail,description"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“bunkei gakubu”，含不符合连续书写规则的空格。“文系学部”是对文科类学部的概括称呼，具体对应院系及译法依学校语境而定。因声调缺乏可靠依据，已按约定保持全部七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T08:56:41+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68779,
+  "words": [
+    "循環系"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原始 tone 为空。本地 OCR 辞书只出现更长复合词「循環系疾患⑦」，没有「循環系」独立重音，无法由长词重音可靠反推；已按规则原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:22:17+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69282,
+  "words": [
+    "東欧圏"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考未收录「東欧圏（とうおうけん）」完整词条，无法可靠确定复合词基本声调；其余字段未见高置信错误。按规则七个业务字段原样提交，待人工补充声调。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T09:39:42+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68747,
+  "words": [
+    "職業柄"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "rome"
+  ],
+  "reason": "原始 tone 为空，且 rome 含不符合项目格式的空格。本地 OCR 辞书未检出完整词「職業柄」；已确认接尾成分「〜柄」的复合词重音会随前项变化，不能类推整体重音。七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

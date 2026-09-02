@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T15:52:12+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69532,
+  "words": [
+    "日本行き"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome"
+  ],
+  "reason": "该项是目的地名「日本」与「行き」组成的方向性表达，本地新明解 OCR 未检索到完整独立词条，无法可靠确认固定词条身份或声调；tone 为空。罗马字「nihon yuki」含不合规则的空格，若保留该词形，预期连续书写为「nihonyuki」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

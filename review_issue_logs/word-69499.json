@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T14:30:47+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69499,
+  "words": [
+    "中国飯店"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type,detail.meanings,rome"
+  ],
+  "reason": "该项可能是特定店名，也可能被误作普通词条；本地新明解 OCR 未检索到完整独立记录，无法可靠判定词条身份与「中国饭店；中餐馆名」释义边界。type「专有名词」不在项目允许词性集合内；tone 为空；罗马字「chuugoku hanten」含不合规则的空格，若保留词形，预期连续书写为「chuugokuhanten」。按问题词规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

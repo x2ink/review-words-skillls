@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T14:01:13+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68556,
+  "words": [
+    "〜育ち"
+  ],
+  "uncertain_fields": [
+    "kana,tone"
+  ],
+  "reason": "kana 字段不应包含接尾标记“〜”，规范读音应为“そだち”；本地参考确认独立名词“育ち③”，但大阪育ち、都会育ち、海外育ち等完整复合词需分别核验整体重音，不能统一套用③。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

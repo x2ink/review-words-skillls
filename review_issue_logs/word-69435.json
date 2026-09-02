@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:59:36+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69435,
+  "words": [
+    "すみませんでした"
+  ],
+  "uncertain_fields": [
+    "tone,detail.type,rome"
+  ],
+  "reason": "原始 tone 字段为空；detail.type 为项目禁用标签“惯用表达”；rome 为“sumimasen deshita”，含不符合连续书写规则的空格。因声调缺乏可靠依据，已按约定保持全部七个业务字段原样提交，未单独修正格式字段。",
+  "ai_source": "chatgpt-5.6"
+}

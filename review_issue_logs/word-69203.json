@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T05:15:26+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69203,
+  "words": [
+    "ど〜"
+  ],
+  "uncertain_fields": [
+    "tone,detail.meanings,description"
+  ],
+  "reason": "声调字段为空。本地新明解 OCR 确认「ど」为接头词，但未给出可独立采用的声调；作为黏着语素，其声调是否应留空或随后项处理，项目规则未明确。词典还区分两类功能：一是强调程度（ど真ん中、どえらい），二是表示蔑视或责骂（ど素人、ど阿呆）；原数据合并两类，description 仅写“非常、极其”，漏掉贬义功能。依照问题词条策略将七个业务字段原样提交，留待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

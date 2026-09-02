@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:13:16+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69398,
+  "words": [
+    "数社"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "整体词条声调为空。读音「すうしゃ」及“数家、几家公司”用法可以确认，但「数＋社」属于可生产的数量组合，未找到可可靠确认整词东京式声调的词典证据，不能由构词成分独立声调直接拼接。依据问题词条处理规则，七个业务字段原样提交并记录待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

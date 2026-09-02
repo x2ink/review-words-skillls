@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:01:43+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69437,
+  "words": [
+    "歴史学部"
+  ],
+  "uncertain_fields": [
+    "words,tone,rome,detail,description"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“rekishi gakubu”，含不符合连续书写规则的空格。“歴史学部”作为院系名称是否成立取决于具体学校，通常也可能使用“文学部”下设“史学科”等结构，无法脱离来源确认。已按约定保持全部七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

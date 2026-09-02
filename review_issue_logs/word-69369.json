@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:46:29+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69369,
+  "words": [
+    "喪失感"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典只确认基础词「喪失⓪」，不能据此可靠推断复合词「喪失感」的整体声调，外部也未找到明确数字声调。rome「soushitsu kan」含空格，按项目格式应为「soushitsukan」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

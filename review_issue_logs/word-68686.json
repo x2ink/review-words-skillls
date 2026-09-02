@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:06:31+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68686,
+  "words": [
+    "〜切る"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "该补助动词式接尾成分接在不同词干后时，完整词的整体声调会变化，无法可靠确定统一独立声调，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,6 +1,6 @@
 ---
 name: clean-japanese-dictionary-entry
-description: 按 easyjapanese 的修订版字段规则复审和清洗单条日语词典数据。用于检查词形、假名、声调、罗马字、中文释义、词性、例句和摘要，纠正高置信错误，删除 Agent 禁止字段，生成可提交的严格 JSON，并在无法可靠修正时返回原样提交及问题记录信息。
+description: 按 easyjapanese 的修订版字段规则逐字段复审和清洗单条日语词典数据。用于纠正高置信错误、保留证据不足的局部原值并生成严格 JSON；只有关键字段互斥且无法形成安全一致结果时才返回原样提交及问题记录信息。
 ---
 
 # 日语词条清洗
@@ -34,16 +34,31 @@ description: 按 easyjapanese 的修订版字段规则复审和清洗单条日�
 7. 判断本条属于 `submit_changed`、`submit_unchanged` 还是 `submit_original_with_issue`。三种决策都构造提交对象；第三种必须保持 GET 返回的七个业务字段不变。
 8. 对提交对象执行最终校验。不得夹带解释、Markdown 或未定义字段。问题原因作为独立任务控制信息返回，不得放入提交对象。
 
+## 字段独立原则
+
+- 分别判断 `words`、`kana`、`tone`、`detail`、`rome` 和 `description`。一个字段未知，不得阻止其他字段的高置信修正。
+- 对可确认的错误直接修正；对证据不足的局部字段保留原值。修正后的对象只要整体一致，就使用 `submit_changed`。
+- `tone: ""` 是允许的已审核结果。没有可靠声调证据时保持空字符串，不记录问题，也不得据此原样提交整条词条。
+- OCR 未命中完整词条很常见，特别是复合词、短语和专名。它只表示没有获得这项辅助证据，不表示词条身份可疑。
+- 可安全删除的坏义项、坏例句、重复内容，以及可明确规范化的 `rome` 或 `type`，都属于普通清洗，不属于重大不确定性。
+- 只有无法消除的关键互斥冲突使得任何可构造结果都可能明显误导学习者时，才允许 `submit_original_with_issue`。
+
+典型决策：
+
+- `博士課程` 的 `kana` 若误为 `はかせかてい`，应改为 `はくしかてい`，同步修正 `rome`；没有声调依据则保留 `tone: ""`，决策为 `submit_changed`。
+- `期間中` 的内容可靠但 `rome` 含空格时，去除空格并使用 `submit_changed`；空声调和 OCR 未命中不改变该决策。
+- 所有字段均合理且没有高置信修改点时使用 `submit_unchanged`，不能为了制造审核痕迹而改写。
+
 ## 判断原则
 
 - 高置信错误：直接修正，例如明显错字、错误读音、例句翻译与日文相反、义项放错词性。
 - 中等置信疑点：结合 OCR 上下文、词形、假名和例句交叉验证后再决定。
 - 低置信疑点：保留原值。不要凭空新增冷僻义项、词形、声调或例句。
-- OCR 与可靠日语知识冲突时，先考虑 OCR 识别错误。普通疑点无法消除时保留合理原值；影响关键字段且无法安全保留任一方案时判定 `submit_original_with_issue`。
+- OCR 与可靠日语知识冲突时，先考虑 OCR 识别错误。普通疑点无法消除时仅保留对应字段的合理原值；只有关键字段互斥且无法安全保留任一方案、删除局部坏数据或构造一致结果时，才判定 `submit_original_with_issue`。
 - 罕见义项只有在证据足够时保留，不能仅因“不常见”删除。
 - xmj.txt 只是含噪参考资料。单个 OCR 命中、单个声调符号或相邻文本不能单独证明需要修改词条。
 - 如果原值本身合理，小范围证据不足不属于重大不确定性；保留原值并继续提交。
-- 如果关键字段存在互斥结论，且选择任何一种都会有较大概率误导学习者，则判定为 `submit_original_with_issue`，不得猜测修改。
+- 如果关键字段存在互斥结论，且选择任何一种都会有较大概率误导学习者，同时保留原字段也无法得到安全一致的结果，才判定为 `submit_original_with_issue`，不得猜测修改。
 
 ## 输出
 
@@ -51,7 +66,7 @@ description: 按 easyjapanese 的修订版字段规则复审和清洗单条日�
 
 - submit_changed：高置信完成修改，输出可 JSON 序列化的提交对象。
 - submit_unchanged：完整复核后原数据仍可靠，输出保留原内容的提交对象。
-- submit_original_with_issue：存在重大不确定性，输出原样提交对象，并向总控返回 word_id、reason_code=major_uncertainty、uncertain_fields、简短 reason 和 issue_log_required=true。
+- submit_original_with_issue：存在无法通过局部保留、修正或删除解决的关键互斥冲突，输出原样提交对象，并向总控返回 word_id、reason_code=major_uncertainty、uncertain_fields、简短 reason 和 issue_log_required=true。
 
 `submit_original_with_issue` 的提交对象必须保持 GET 返回的 `id、words、kana、tone、detail、rome、description` 不变，只增加 `ai_source`。reason 只陈述无法消除的冲突，不输出思维过程。提交成功后由总控调用 `$use-dictionary-review-agent-api` 的 `log-issue` 写入单独问题文件，然后继续下一条。
 

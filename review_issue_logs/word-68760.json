@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T09:20:41+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68760,
+  "words": [
+    "永井"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "detail.type"
+  ],
+  "reason": "原始 tone 为空，且 detail.type 使用项目类型表之外的「专有名词」。本地 OCR 辞书未收录该姓氏；姓氏重音可能因个人或地区而异，无法可靠补固定重音。七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

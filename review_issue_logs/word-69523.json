@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T15:23:30+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69523,
+  "words": [
+    "世界中"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "词条声调为空；本地新明解 OCR 只在其他词条的例句或释义中出现「世界中」，未检索到独立词条，无法可靠补全完整复合词声调。按规则将七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

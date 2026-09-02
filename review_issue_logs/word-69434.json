@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T12:58:36+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69434,
+  "words": [
+    "日本語学科"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原始 tone 字段为空，且 rome 为“nihongo gakka”，包含不符合项目连续书写规则的空格。声调缺乏可靠依据，故按约定保持全部七个业务字段原样提交；建议后续确认声调后将罗马字规范为连续形式。",
+  "ai_source": "chatgpt-5.6"
+}

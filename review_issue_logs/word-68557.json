@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:58:02+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68557,
+  "words": [
+    "近代小説"
+  ],
+  "uncertain_fields": [
+    "tone,rome,description"
+  ],
+  "reason": "本地参考词典未检出完整复合词“近代小説”，无法可靠确认整体东京式声调；原罗马字含空格，应连续为 kindaishousetsu；description 中“现代小说”容易与“近代小说”的时期概念混同，宜删除。因声调缺证，依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

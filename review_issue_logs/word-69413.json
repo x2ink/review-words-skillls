@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:29:29+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69413,
+  "words": [
+    "よくぞ"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "整体词条声调为空。词义和例句可以确认，「よくぞ」是副词「よく」与强调助词「ぞ」形成的固定表达，但未找到可直接核验其整词东京式数字声调的可靠词典记录，不能仅凭构成推断。依据问题词条处理规则，七个业务字段原样提交并记录待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

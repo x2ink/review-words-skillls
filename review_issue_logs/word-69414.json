@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T08:31:44+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69414,
+  "words": [
+    "単方向"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "整体词条声调为空。读音「たんほうこう」及通信、数据流等领域的“单向”用法可以确认，但这是技术性复合词，未找到可可靠确认整词东京式声调的词典证据，不能由「単」与「方向」机械推导。依据问题词条处理规则，七个业务字段原样提交并记录待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

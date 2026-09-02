@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:54:21+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69378,
+  "words": [
+    "島歌"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.meanings,detail.examples,rome,description"
+  ],
+  "reason": "权威资料说明「しまうた」本来指奄美地方各“しま（集落）”的民谣，常见表记为「島唄」，「島歌」也有资料收录；后来才扩展为冲绳等岛屿歌曲的泛称。原释义和description直接并列“冲绳、奄美等地”，未区分本义与后起泛用，第一条例句也依赖该宽泛用法。未找到可靠数字声调。rome「shima uta」含空格，应为「shimauta」。因涉及地域义和词条结构重整，七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-01T08:38:21+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68798,
+  "words": [
+    "ポケモン"
+  ],
+  "uncertain_fields": [
+    "tone",
+    "detail.type"
+  ],
+  "reason": "原始 tone 为空，且 detail.type 使用项目类型表之外的「专有名词」。本地 OCR 辞书未收录「ポケモン」，无法可靠确定品牌名重音；按重大不确定规则，七个业务字段均原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

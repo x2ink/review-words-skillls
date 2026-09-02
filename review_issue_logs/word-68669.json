@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T11:35:15+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68669,
+  "words": [
+    "和し合う"
+  ],
+  "uncertain_fields": [
+    "words,tone,detail.type,detail.meanings,detail.examples"
+  ],
+  "reason": "本地参考词典未收录「和し合う」，现代日语中三个例句均明显生硬，通常应按语境使用「和解する」「仲直りする」「調和する」等。词条资格、固定声调、词性及义例结构均无法可靠确定，因此七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

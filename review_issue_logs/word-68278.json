@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-31T09:43:04+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68278,
+  "words": [
+    "ペルシャ"
+  ],
+  "uncertain_fields": [
+    "words"
+  ],
+  "reason": "首次提交时误将不同读音的替代表记「ペルシア」合并进 words。该词条 kana 为「ペルシャ」，按规则 words 不应包含读音不同的「ペルシア」。接口在纠正重提时返回 409 AGENT_DICTIONARY_ALREADY_REVIEWED，需人工从 words 中删除「ペルシア」；description 中已提交的“也写作「ペルシア」”说明也建议删除。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:19:51+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69452,
+  "words": [
+    "言語文学部"
+  ],
+  "uncertain_fields": [
+    "tone,rome,detail,description"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“gengo bungakubu”，含不符合连续书写规则的空格。“言語文学部”属于机构性院系名称，中文对应应以具体学校官方名称为准，无法脱离来源确认。已按约定保持全部七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

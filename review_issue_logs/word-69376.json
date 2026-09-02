@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:51:43+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69376,
+  "words": [
+    "ポップミュージック"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典仅收录「ポップス①」「ミュージック①」等构词成分，不能由其单独声调可靠推断「ポップミュージック」整体声调，外部词典虽确认词形和释义但未显示明确数字声调。rome「poppu myuujikku」含空格，按项目格式应为「poppumyuujikku」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:59:37+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69383,
+  "words": [
+    "好感度"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地词典未收录完整词「好感度」，外部权威词典可确认读音和“产生好感的程度”这一含义，但未显示可靠的东京式数字声调。rome「koukan do」含空格，按项目格式应为「koukando」。因声调无法可靠补全，七个业务字段按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

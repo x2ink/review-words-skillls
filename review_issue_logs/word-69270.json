@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T06:10:00+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69270,
+  "words": [
+    "世界選手権"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "本地参考仅在例句中出现「世界選手権」，未提供完整词条声调，无法可靠确定复合词基本声调；rome「sekai senshuken」含不符合项目连续小写规范的空格。按规则七个业务字段原样提交，待人工复核。",
+  "ai_source": "chatgpt-5.6"
+}

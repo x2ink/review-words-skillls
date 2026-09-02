@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T07:38:12+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69360,
+  "words": [
+    "〜台"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "该义是接在数词后的生产性接尾成分，本地词典未给出统一独立声调；「二十度台」「千円台」等整体的声调随前接成分变化，无法用单一数字高置信表示，因此按原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

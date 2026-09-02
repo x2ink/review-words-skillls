@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T13:16:03+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 69449,
+  "words": [
+    "国際教育センター"
+  ],
+  "uncertain_fields": [
+    "tone,rome"
+  ],
+  "reason": "原始 tone 字段为空，rome 为“kokusai kyouiku sentaa”，包含两个不符合项目连续书写规则的空格。该机构名称的整体基本声调无法由组成部分可靠拼接，已按约定保持全部七个业务字段原样提交。",
+  "ai_source": "chatgpt-5.6"
+}

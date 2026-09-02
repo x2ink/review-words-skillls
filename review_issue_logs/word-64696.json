@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-02T02:28:26+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 64696,
+  "words": [
+    "半世紀"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "原词条声调为空；本地新明解 OCR 参考中仅见例句用例，未检得可可靠确认该词基本声调的独立词条。按规则七个业务字段原样提交，待人工补充声调。",
+  "ai_source": "chatgpt-5.6"
+}

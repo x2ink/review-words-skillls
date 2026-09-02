@@ -29,7 +29,7 @@ description: 调用 easyjapanese 无认证词条复审 Agent API，获取下一�
 1. 每次先 next，成功获得对象后才允许 submit。
 2. submit 的 id 必须和本轮 next 的 id 完全一致。
 3. next 返回 null 时禁止 submit。
-4. 内容存在重大不确定性时，以 GET 返回的七个业务字段原样构造提交对象，只增加 ai_source；提交成功后调用 log-issue，并继续 next。
+4. 本 skill 不自行扩大“重大不确定性”的范围。只有清洗 skill 已按双重门槛明确返回 `submit_original_with_issue` 时，才以 GET 返回的七个业务字段原样构造提交对象，只增加 ai_source；空声调、OCR 未命中或普通可修字段错误不得触发此流程。提交成功后调用 log-issue，并继续 next。
 5. log-issue 必须为每个问题 ID 单独创建 `review_issue_logs/word-<id>.json`，写明 ID、词形、问题字段、简短原因、提交状态和时间。不得写模型内部推理。
 6. 问题文件写入失败最多重试 3 次；最终失败要计入报告，但不得中断队列循环。
 7. next、submit 的输入、HTTP、网络和响应解析错误由脚本自动写入本地 JSONL 日志。发现输出中的 log_error 时，必须在任务报告中说明日志写入失败。

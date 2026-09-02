@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T15:09:34+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68535,
+  "words": [
+    "盛り付け"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典确认动词“盛り付ける④”及派生名词“盛り付け”，但派生名词声调符号在 OCR 中损坏；不能由动词声调反推名词声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}

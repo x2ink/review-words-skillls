@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-01T13:32:21+08:00",
+  "event_type": "dictionary_review_issue",
+  "submission_status": "submitted_original",
+  "word_id": 68572,
+  "words": [
+    "はっけよい"
+  ],
+  "uncertain_fields": [
+    "tone"
+  ],
+  "reason": "本地参考词典未检出相扑行司喊声“はっけよい”的独立词条；实战喊声常受拖长和语气影响，无法可靠确定词典式东京声调。依规则七个业务字段原样提交并记录。",
+  "ai_source": "chatgpt-5.6"
+}
