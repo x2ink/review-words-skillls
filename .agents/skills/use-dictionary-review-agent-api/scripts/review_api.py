@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""调用 easyjapanese 词条复审 Agent API，并记录本地审核异常日志。
+"""调用 easyjapanese 词条复审 Agent API，并记录本地审核日志。
 
 next 子命令只读下一条待 AI 复审词条，不修改数据。submit 子命令从 UTF-8 JSON
 文件或标准输入读取完整词条并提交；成功后会真实覆盖词条字段，同时写入审核记录的
 ai_source 和 ai_reviewed_at。默认连接 EASYJAPANESE_AGENT_BASE_URL，未设置时使用
-http://127.0.0.1:8000。接口请求错误会自动追加到本地 JSONL 日志；log-issue
-子命令为已原样提交的问题词条创建独立 JSON 文件，不调用接口。日志默认写入
-.agents/logs/agent_dictionary_review.jsonl，可由 EASYJAPANESE_REVIEW_LOG_PATH 覆盖。
+http://127.0.0.1:8000。每次成功提交都会在 review_audit_logs 中按词条 ID 保存
+完整的 before 和 after；接口请求错误会自动追加到本地 JSONL 日志；log-issue
+子命令为已原样提交的问题词条创建独立 JSON 文件，不调用接口。
 
 用法：
     python review_api.py next
-    python review_api.py submit --input payload.json
+    python review_api.py submit --input payload.json --before-input .review_before.json
+    python review_api.py log-audit --before-input before.json --after-input after.json
     python review_api.py log-issue --word-id 1 --word 建 --message "词形与读音冲突"
     python review_api.py log-uncertainty --word-id 1 --message "无法确认读音"
     Get-Content payload.json -Raw | python review_api.py submit
@@ -33,6 +34,8 @@ from urllib.request import Request, urlopen
 DEFAULT_BASE_URL = "http://127.0.0.1:8000"
 DEFAULT_LOG_PATH = ".agents/logs/agent_dictionary_review.jsonl"
 DEFAULT_ISSUE_LOG_DIR = "review_issue_logs"
+DEFAULT_AUDIT_LOG_DIR = "review_audit_logs"
+DEFAULT_BEFORE_PATH = ".review_before.json"
 NEXT_PATH = "/api/v2/agent/dictionary/reviews/next"
 SUBMIT_PATH = "/api/v2/agent/dictionary/reviews/submit"
 
@@ -135,6 +138,46 @@ def write_issue_file(
             temp_path.unlink(missing_ok=True)
         except OSError:
             pass
+        return None, str(exc)
+    return str(path), None
+
+
+def write_object_file(path: Path, value: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = path.with_name(f".{path.name}.tmp")
+    try:
+        temp_path.write_text(
+            json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+            newline="\n",
+        )
+        temp_path.replace(path)
+    except OSError:
+        try:
+            temp_path.unlink(missing_ok=True)
+        except OSError:
+            pass
+        raise
+
+
+def write_audit_file(
+    audit_dir: str,
+    *,
+    before: dict[str, Any],
+    after: dict[str, Any],
+) -> tuple[str | None, str | None]:
+    word_id = after.get("id")
+    directory = Path(audit_dir)
+    path = directory / f"{word_id}.json"
+    record = {
+        "timestamp": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "word_id": word_id,
+        "before": before,
+        "after": after,
+    }
+    try:
+        write_object_file(path, record)
+    except OSError as exc:
         return None, str(exc)
     return str(path), None
 
@@ -257,6 +300,17 @@ def validate_submit_payload(payload: dict[str, Any]) -> None:
                     raise InputError(f"unexpected example fields: {names}")
 
 
+def validate_audit_pair(
+    before: dict[str, Any], after: dict[str, Any]
+) -> None:
+    before_id = before.get("id")
+    after_id = after.get("id")
+    if not isinstance(before_id, int) or isinstance(before_id, bool) or before_id < 1:
+        raise InputError("before.id must be a positive integer")
+    if before_id != after_id:
+        raise InputError("before.id must match submit payload id")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Fetch or submit easyjapanese AI dictionary review entries."
@@ -287,15 +341,36 @@ def build_parser() -> argparse.ArgumentParser:
         default=os.getenv("EASYJAPANESE_REVIEW_ISSUE_DIR", DEFAULT_ISSUE_LOG_DIR),
         help="Directory for one JSON file per problematic submitted entry.",
     )
+    parser.add_argument(
+        "--audit-dir",
+        default=os.getenv("EASYJAPANESE_REVIEW_AUDIT_DIR", DEFAULT_AUDIT_LOG_DIR),
+        help="Directory for one before/after JSON file per submitted entry.",
+    )
 
     subparsers = parser.add_subparsers(dest="command", required=True)
-    subparsers.add_parser("next", help="Fetch one pending review entry.")
+    next_parser = subparsers.add_parser("next", help="Fetch one pending review entry.")
+    next_parser.add_argument(
+        "--save-to",
+        default=DEFAULT_BEFORE_PATH,
+        help="Save the exact unwrapped GET data for the later audit record.",
+    )
     submit_parser = subparsers.add_parser("submit", help="Submit one reviewed entry.")
     submit_parser.add_argument(
         "--input",
         default="-",
         help="UTF-8 JSON file path, or - for standard input.",
     )
+    submit_parser.add_argument(
+        "--before-input",
+        default=DEFAULT_BEFORE_PATH,
+        help="UTF-8 JSON file containing the exact data returned by next.",
+    )
+    audit_parser = subparsers.add_parser(
+        "log-audit",
+        help="Write or retry one before/after audit file without calling the API.",
+    )
+    audit_parser.add_argument("--before-input", required=True)
+    audit_parser.add_argument("--after-input", required=True)
     issue_parser = subparsers.add_parser(
         "log-issue",
         help="Write one per-entry issue file after an original submission.",
@@ -334,6 +409,43 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.command == "log-audit":
+        try:
+            before = read_payload(args.before_input)
+            after = read_payload(args.after_input)
+            validate_submit_payload(after)
+            validate_audit_pair(before, after)
+        except InputError as exc:
+            write_json(
+                {"error": "invalid_input", "message": str(exc)},
+                sys.stderr.buffer,
+                pretty=args.pretty,
+            )
+            return 2
+        audit_path, audit_error = write_audit_file(
+            args.audit_dir,
+            before=before,
+            after=after,
+        )
+        if audit_error:
+            write_json(
+                {
+                    "error": "audit_log_error",
+                    "message": concise_message(audit_error),
+                    "audit_dir": args.audit_dir,
+                    "word_id": after["id"],
+                },
+                sys.stderr.buffer,
+                pretty=args.pretty,
+            )
+            return 6
+        write_json(
+            {"logged": True, "audit_path": audit_path, "word_id": after["id"]},
+            sys.stdout.buffer,
+            pretty=args.pretty,
+        )
+        return 0
+
     if args.command == "log-issue":
         if args.word_id < 1:
             write_json(
@@ -401,6 +513,7 @@ def main() -> int:
         return 0
 
     payload: dict[str, Any] | None = None
+    before: dict[str, Any] | None = None
     endpoint = NEXT_PATH if args.command == "next" else SUBMIT_PATH
     method = "GET" if args.command == "next" else "POST"
 
@@ -416,13 +529,23 @@ def main() -> int:
             )
             if result is not None and not isinstance(result, dict):
                 raise ValueError("next response data must be an object or null")
+            before_path = Path(args.save_to)
+            if result is None:
+                before_path.unlink(missing_ok=True)
+            else:
+                try:
+                    write_object_file(before_path, result)
+                except OSError as exc:
+                    raise InputError(f"could not save before snapshot: {exc}") from exc
         else:
             payload = read_payload(args.input)
+            before = read_payload(args.before_input)
             payload.setdefault(
                 "ai_source",
                 os.getenv("EASYJAPANESE_AI_SOURCE", "chatgpt-5.6"),
             )
             validate_submit_payload(payload)
+            validate_audit_pair(before, payload)
             result = unwrap_success_envelope(
                 request_json(
                     args.base_url,
@@ -512,6 +635,37 @@ def main() -> int:
         attach_log_error(output, log_error)
         write_json(output, sys.stderr.buffer, pretty=args.pretty)
         return 5
+
+    if args.command == "submit":
+        assert payload is not None
+        assert before is not None
+        audit_path, audit_error = write_audit_file(
+            args.audit_dir,
+            before=before,
+            after=payload,
+        )
+        if audit_error:
+            log_error = append_local_log(
+                args.log_path,
+                {
+                    "event_type": "audit_log_error",
+                    "action": "submit",
+                    "word_id": payload["id"],
+                    "audit_dir": args.audit_dir,
+                    "message": concise_message(audit_error),
+                },
+            )
+            output = {
+                "error": "audit_log_error",
+                "submitted": True,
+                "word_id": payload["id"],
+                "audit_dir": args.audit_dir,
+                "message": concise_message(audit_error),
+                "retry": "log-audit",
+            }
+            attach_log_error(output, log_error)
+            write_json(output, sys.stderr.buffer, pretty=args.pretty)
+            return 6
 
     write_json(result, sys.stdout.buffer, pretty=args.pretty)
     return 0

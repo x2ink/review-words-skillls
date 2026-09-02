@@ -220,9 +220,10 @@ detail[]
 
 助手脚本已适配 v2 成功响应包装：它会验证响应 `code === "OK"`，然后只把 `data` 写到标准输出。因此：
 
-- `next` 有数据时输出词条对象。
+- `next` 有数据时输出词条对象，并默认把完全相同的对象保存到 `.review_before.json`。
 - `next` 无数据时输出 JSON `null`。
-- `submit` 成功时输出更新后的词条对象。
+- `submit` 成功时输出更新后的词条对象，并在 `review_audit_logs/<id>.json` 保存完整 before/after。
+- `log-audit` 只重试写入审核快照，不调用接口。
 - `log-issue` 成功时输出问题文件路径，不调用远程接口。
 - HTTP 错误、无效 JSON 或无效成功包装写到标准错误，并返回非零退出码。
 
@@ -243,7 +244,7 @@ python .agents/skills/use-dictionary-review-agent-api/scripts/review_api.py --ba
 从 UTF-8 JSON 文件提交：
 
 ```powershell
-python .agents/skills/use-dictionary-review-agent-api/scripts/review_api.py submit --input payload.json
+python .agents/skills/use-dictionary-review-agent-api/scripts/review_api.py submit --input payload.json --before-input .review_before.json
 ```
 
 也可以从标准输入提交。`EASYJAPANESE_AI_SOURCE` 可覆盖脚本默认注入的 `chatgpt-5.6`。
@@ -260,6 +261,39 @@ python .agents/skills/use-dictionary-review-agent-api/scripts/review_api.py subm
 - 响应不是有效 JSON，或成功响应不符合 v2 包装结构。
 
 接口请求错误由脚本自动记录。
+
+## 逐词条审核快照
+
+每次成功提交都必须在项目根目录 `review_audit_logs` 中创建一个 JSON 文件。一个词条对应一个文件，文件名直接使用词条 ID，例如：
+
+```text
+review_audit_logs/64857.json
+```
+
+文件结构：
+
+```json
+{
+  "timestamp": "2026-09-02T17:00:00+08:00",
+  "word_id": 64857,
+  "before": {},
+  "after": {}
+}
+```
+
+- `before` 必须完整保存本轮 GET 的 `data` 对象，不得清洗、摘要、删字段或根据 after 重建。
+- `after` 必须完整保存实际发送给 POST 的请求体，包括最终发送的 `ai_source`，不得只保存发生变化的字段。
+- `before.id`、`after.id` 和文件名 ID 必须一致。
+- 文件使用 UTF-8 JSON，以临时文件原子替换方式写入。
+- 审核快照是本地质量追踪数据，不得包含模型内部推理、认证信息或未实际发送的候选方案。
+
+submit 已成功但审核文件写入失败时，不得再次调用 submit。使用以下命令仅重试写文件：
+
+```powershell
+python .agents/skills/use-dictionary-review-agent-api/scripts/review_api.py log-audit --before-input .review_before.json --after-input payload.json
+```
+
+最多重试 3 次；仍失败时停止本轮并报告 `AUDIT_LOG_ERROR`，不得继续产生没有 before/after 记录的新提交。
 
 ## 问题词条文件
 
